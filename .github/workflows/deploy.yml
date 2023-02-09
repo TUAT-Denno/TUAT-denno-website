@@ -1,0 +1,42 @@
+name: nextjs-deploy
+
+on:
+  push:
+    branches:
+      - "master"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install packages
+        run: docker compose run --rm app sh -c "cd src && npm install" 
+      - name: Build and export
+        run: docker compose run --rm app sh -c "cd src && npm run build" 
+      - name: add nojekyll
+        run: touch src/out/.nojekyll
+      - uses: actions/upload-pages-artifact@v1
+        with:
+          path: "src/out"
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
