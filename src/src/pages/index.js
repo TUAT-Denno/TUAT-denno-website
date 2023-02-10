@@ -5,16 +5,14 @@ const Index = () => {
     <>
       <title>農工大　電脳サークルへようこそ!</title>
       <header>
-        <div class="header_inner">
+        <div class="header">
           <div class="header_left">
             <h3>東京農工大学 電脳サークルの公式ウェブサイトです</h3>
           </div>
           <div class="header_right">
             <ul>
               <li>
-                <link href='/about'>
-                  <a>About</a>
-                </link>
+                <a>About</a>
               </li>
               <li>
                 <a>活動実績</a>
