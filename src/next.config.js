@@ -12,5 +12,5 @@ module.exports = {
   images: {
   unoptimized: true,
   },
-  basePath: '/[GitHubのリポジトリ名]',
+  basePath: '/TUAT-denno-web',
 }
