@@ -12,7 +12,7 @@ const Index = () => {
           <div class="header_right">
             <ul>
               <li>
-                <link href='/about'>
+                <link href='/About'>
                   <a>About</a>
                 </link>
               </li>
