@@ -3,7 +3,7 @@ name: nextjs-deploy
 on:
   push:
     branches:
-      - "niboshi"
+      - "main"
 
 permissions:
   contents: read

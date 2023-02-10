@@ -12,7 +12,9 @@ const Index = () => {
           <div class="header_right">
             <ul>
               <li>
-                <a>About</a>
+                <link href='/about'>
+                  <a>About</a>
+                </link>
               </li>
               <li>
                 <a>活動実績</a>
