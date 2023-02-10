@@ -3,30 +3,28 @@ import Link from 'next/link'
 const Index = () => {
   return (
     <>
-      <title>農工大　電脳サークルへようこそ!</title>
-      <header>
-        <div class="header">
-          <div class="header_left">
-            <h3>東京農工大学 電脳サークルの公式ウェブサイトです</h3>
-          </div>
-          <div class="header_right">
-            <ul>
-              <li>
-                <link href='/About'>
-                  <a>About</a>
-                </link>
-              </li>
-              <li>
-                <a>活動実績</a>
-              </li>
-              <li>Blog</li>
-            </ul>
-          </div>
-        </div>
-      </header>
-      <body>
-        <p1>TUAT-Denno official website ver1.0.0</p1>
-      </body>
+      <title>Welcomr to 農工大!</title>
+        <h3>東京農工大学 電脳サークル</h3>
+          <ul>
+            <li>
+              <Link href="/about">
+                <p>About</p>
+              </Link>
+            </li>
+            <li>
+              <Link href="/achievements">
+                <p>Achievements</p>
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog">
+                <p>Blog</p>
+              </Link>
+            </li>
+          </ul>
+      <footer>
+        <p>TUAT-Denno official website ver1.1.0</p>
+      </footer>
     </>
   )
 }
