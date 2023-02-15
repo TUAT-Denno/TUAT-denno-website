@@ -4,7 +4,7 @@ const About = () => {
     return(
       <>
       <header>
-        <title>東京農工大学 電脳サークル</title>
+        <title>東京農工大学電脳サークル</title>
       </header>
 
       <nav>
