@@ -34,7 +34,7 @@ const Index = () => {
         </ul>
       </nav>
       <footer>
-        <h3>TUAT-Denno official website ver1.1.0</h3>
+        <h3>TUAT-Denno official website ver1.2.0</h3>
       </footer>
     </>
   )
