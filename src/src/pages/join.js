@@ -37,7 +37,7 @@ const About = () => {
         </ul>
       </nav>
       <footer>
-        <h1>About Page</h1>
+        <h1>Join Page</h1>
       </footer>
       </>
     )
