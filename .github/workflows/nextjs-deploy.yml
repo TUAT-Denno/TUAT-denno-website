@@ -28,7 +28,7 @@ jobs:
         with:
           path: "src/out"
       - name: add nojekyll
-        run: touch ./.nojekyll
+        run: touch ./src/.nojekyll
 
   deploy:
     environment:
