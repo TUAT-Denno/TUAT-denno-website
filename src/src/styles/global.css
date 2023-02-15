@@ -5,15 +5,15 @@ nav {
     position: fixed;
     top: 5px;
     left: 5px;
-    overflow: scroll;
+    overflow: hidden;
 }
 ul {
     display: flex;
-    overflow: scroll;
+    overflow: hidden;
 }
 li {
     list-style: none;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 a {
@@ -21,12 +21,12 @@ a {
     text-decoration: none;
     color: white;
     margin-right: 35px;
-    overflow: scroll;
+    overflow: hidden;
 }
 footer {
   width: 100%;
   height: 120px; 
   text-align: center;
   padding: 200px 0;
-  overflow: scroll;
+  overflow: hidden;
 }
