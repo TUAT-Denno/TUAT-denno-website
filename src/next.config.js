@@ -12,5 +12,5 @@ module.exports = {
   images: {
   unoptimized: true,
   },
-  basePath: '/TUAT-denno-web',
+  basePath: '/',
 }
