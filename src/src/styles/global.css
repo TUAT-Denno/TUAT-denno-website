@@ -16,13 +16,12 @@ li {
     overflow: hidden;
 }
 
-p {
+a {
     display: block;
     text-decoration: none;
     color: white;
     margin-right: 35px;
-    overflow: hidden;
-    white-space: nowrap
+    white-space: nowrap;
 }
 footer {
   width: 100%;
