@@ -1,0 +1,32 @@
+nav {
+    width: 100%;
+    background-color: dimgray;
+    box-sizing: border-box;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    overflow: hidden;
+}
+ul {
+    display: flex;
+    overflow: hidden;
+}
+li {
+    list-style: none;
+    overflow: hidden;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    white-space: nowrap;
+}
+footer {
+  width: 100%;
+  height: 120px; 
+  text-align: center;
+  padding: 200px 0;
+  overflow: hidden;
+}
