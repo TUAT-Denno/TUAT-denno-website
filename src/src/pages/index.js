@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Index = () => {
   return (
     <>
-      <title>東京農工大学 電脳サークル</title>
+      <title>東京農工大学  電脳サークル</title>
       <nav>
         <ul>
           <li>
