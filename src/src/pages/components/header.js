@@ -27,7 +27,7 @@ export default function Header(){
             </Link>
 
             {/* リンクを入部フォームにする */}
-            <a href="https://www.tuat.ac.jp/" target="_blank">
+            <a href="https://www.tuat.ac.jp/" target="_blank" rel='noreferrer'>
               <li>JOIN</li>
             </a>
 

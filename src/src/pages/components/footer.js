@@ -1,7 +1,7 @@
 import Link from "next/link"
 import styles from '@/styles/headfooter.module.css'
 
-export default function Hooter(){
+export default function Footer(){
     return(
       <>
         <footer className={styles.Footer}>
@@ -11,7 +11,7 @@ export default function Hooter(){
 
               <div className={styles.list}>
                 {/* リンクはgooglemapより */}
-                <a href="https://goo.gl/maps/VSqkKW5YZmoBkvMn7" target="_blank">
+                <a href="https://goo.gl/maps/VSqkKW5YZmoBkvMn7" target="_blank" rel='noreferrer'>
                   <li>Acsess</li>
                 </a>
                 <p>東京農工大学 小金井キャンパス 部室等のどこか</p>
@@ -19,14 +19,14 @@ export default function Hooter(){
 
               <div className={styles.list}>
                 {/* リンクはTwitter */}
-                <a href="https://twitter.com/noko_denno" target="_blank">
+                <a href="https://twitter.com/noko_denno" target="_blank" rel='noreferrer'>
                   <li>Twitter</li>
                 </a>
               </div>
 
               <div className={styles.list}>
                 {/* とりあえず質問箱 */}
-                <a href="https://t.co/ZF59XsfvuR" target="_blank">
+                <a href="https://t.co/ZF59XsfvuR" target="_blank" rel='noreferrer'>
                   <li>Contact</li>
                   <p>お問い合わせ</p>
                 </a>
