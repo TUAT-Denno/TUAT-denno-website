@@ -1,6 +1,14 @@
-import Link from 'next/link'
+import Head from 'next/head'
+import Link from "next/link"
+import Image from 'next/image'
+import { Inter } from '@next/font/google'
+import styles from '@/styles/Home.module.css'
 
-const Index = () => {
+import HEADER from './components/header'
+import FOOTER from './components/footer'
+
+
+export default function Home() {
   return (
     <>
       <title>東京農工大学  電脳サークル</title>
@@ -39,4 +47,3 @@ const Index = () => {
     </>
   )
 }
-export default Index

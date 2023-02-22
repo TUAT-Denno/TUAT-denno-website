@@ -1,0 +1,38 @@
+
+.headnav{
+    display: flex;
+}
+
+.headnav li{
+    margin-left: 32px;
+}
+
+.Header{
+    display: flex;
+    background-color:aqua;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 32px;
+    
+}
+
+.Footer{
+    background-color: lightgreen;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+.list{
+    margin-left:2px;
+}
+.list li{
+    margin-bottom: 4px;
+}
+
+.list p{
+    font-size:8px;
+    margin-bottom: 8px;
+}

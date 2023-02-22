@@ -1,45 +1,29 @@
-import Link from 'next/link'
+import Head from 'next/head'
+import Link from "next/link"
+import Image from 'next/image'
+import { Inter } from '@next/font/google'
+import styles from '@/styles/Home.module.css'
 
-const About = () => {
-    return(
-      <>
-      <header>
-        <title>東京農工大学電脳サークル</title>
-      </header>
+import HEADER from './components/header'
+import FOOTER from './components/footer'
 
-      <nav>
-        <ul>
-          <li>
-            <Link href="/">
-              <p><font size="2" face="Impact">電脳サークル</font></p>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <p><font size="2">About</font></p>
-            </Link>
-          </li>
-          <li>
-            <Link href="/gallery">
-              <p><font size="2">Gallery</font></p>
-            </Link>
-          </li>
-          <li>
-            <Link href="/faq">
-              <p><font size="2">FAQ</font></p>
-            </Link>
-          </li>
-          <li>
-            <Link href="/join">
-              <p><font size="2">Join</font></p>
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <footer>
-        <h1>FAQ Page</h1>
-      </footer>
-      </>
-    )
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>東京農工大学 電脳サークル</title>
+        <meta name="description" content="東京農工大学電脳サークルの紹介ページ" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/電脳サークル.png" />
+      </Head>
+
+      <HEADER />
+      <main>
+      <p>This is faq page</p>
+      </main>
+      <FOOTER />
+
+    </>
+  )
 }
-export default About
