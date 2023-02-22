@@ -11,7 +11,7 @@ export default function Footer(){
 
               <div className={styles.list}>
                 {/* リンクはgooglemapより */}
-                <a href="https://goo.gl/maps/VSqkKW5YZmoBkvMn7" target="_blank" rel='noreferrer'>
+                <a href="https://goo.gl/maps/VSqkKW5YZmoBkvMn7" target="_blank" rel="noopener noreferrer">
                   <li>Acsess</li>
                 </a>
                 <p>東京農工大学 小金井キャンパス 部室等のどこか</p>
@@ -19,14 +19,14 @@ export default function Footer(){
 
               <div className={styles.list}>
                 {/* リンクはTwitter */}
-                <a href="https://twitter.com/noko_denno" target="_blank" rel='noreferrer'>
+                <a href="https://twitter.com/noko_denno" target="_blank" rel="noopener noreferrer">
                   <li>Twitter</li>
                 </a>
               </div>
 
               <div className={styles.list}>
                 {/* とりあえず質問箱 */}
-                <a href="https://t.co/ZF59XsfvuR" target="_blank" rel='noreferrer'>
+                <a href="https://t.co/ZF59XsfvuR" target="_blank" rel="noopener noreferrer">
                   <li>Contact</li>
                   <p>お問い合わせ</p>
                 </a>
@@ -42,7 +42,7 @@ export default function Footer(){
 
               <div className={styles.list}>
                 {/* リンクを入部フォームにする */}
-                <a href="https://www.tuat.ac.jp/" target="_blank">
+                <a href="https://www.tuat.ac.jp/" target="_blank" rel="noopener noreferrer">
                   <li>Join</li>
                   <p>入部フォーム</p>
                 </a>
