@@ -1,8 +1,8 @@
 import Link from "next/link"
 import styles from '@/styles/headfooter.module.css'
 
-export default function Header(){
-  return(
+export default function Header() {
+  return (
     <>
       <heder className={styles.Header}>
         <Link href="/">
@@ -15,7 +15,7 @@ export default function Header(){
             </Link>
 
             <Link href="/about">
-              <li>ABOUT</li> 
+              <li>ABOUT</li>
             </Link>
 
             <Link href="/gallery">
@@ -26,14 +26,18 @@ export default function Header(){
               <li>FAQ</li>
             </Link>
 
+            <Link href="/access">
+              <li>ACCESS</li>
+            </Link>
+
             {/* リンクを入部フォームにする */}
             <a href="https://www.tuat.ac.jp/" target="_blank" rel="noopener noreferrer">
               <li>JOIN</li>
             </a>
 
           </ul>
-         </nav>
+        </nav>
       </heder>
     </>
-    )
+  )
 }
