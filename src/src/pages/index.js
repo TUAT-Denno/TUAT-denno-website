@@ -23,7 +23,6 @@ export default function Home() {
         <p>This is Home</p>
       </main>
       <FOOTER />
-
     </>
   )
 }
