@@ -20,7 +20,7 @@ export default function Home() {
 
       <HEADER />
       <main>
-        <p>This is Home</p>
+        <p>This is home</p>
       </main>
       <FOOTER />
     </>
