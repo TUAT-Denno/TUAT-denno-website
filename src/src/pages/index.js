@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>電脳サークル</title>
+        <title>東京農工大学 電脳サークル</title>
         <meta name="description" content="東京農工大学電脳サークルの紹介ページ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/電脳サークル.png" />
