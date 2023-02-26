@@ -1,12 +1,16 @@
-import Link from "next/link"
+import Link from 'next/link'
+import HEAD from 'next/head'
 import styles from '@/styles/headfooter.module.css'
 
 export default function Header(){
   return(
     <>
+      <HEAD>
+      <script src="https://kit.fontawesome.com/f27abcd726.js" crossorigin="anonymous"></script>
+      </HEAD>
       <heder className={styles.Header}>
         <Link href="/">
-          <h1 className={styles.header}>電脳サークル</h1>
+          <img className={styles.hlogo} src="/dennno-ico.png" alt="icon"></img>
         </Link>
         <nav>
           <ul className={styles.headnav}>
@@ -31,9 +35,14 @@ export default function Header(){
               <li>JOIN</li>
             </a>
 
+            <a href="https://twitter.com/noko_denno" target="_blank" rel="noopener noreferrer">
+              <li><i className="fa-brands fa-twitter"></i></li>
+            </a>
+
           </ul>
          </nav>
       </heder>
+      
     </>
     )
 }
