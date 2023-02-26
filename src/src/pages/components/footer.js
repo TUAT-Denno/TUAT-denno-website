@@ -1,12 +1,13 @@
 import Link from "next/link"
 import HEAD from 'next/head'
 import styles from '@/styles/headfooter.module.css'
+import Script from "next/script"
 
 export default function Footer(){
     return(
       <>
         <HEAD>
-        <script src="https://kit.fontawesome.com/f27abcd726.js" crossorigin="anonymous"></script>
+        <Script src="https://kit.fontawesome.com/f27abcd726.js" crossorigin="anonymous"></Script>
         </HEAD>
         <footer className={styles.Footer}>
           <div className={styles.flex}>

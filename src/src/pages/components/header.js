@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import HEAD from 'next/head'
 import styles from '@/styles/headfooter.module.css'
+import Script from "next/script"
 
 export default function Header(){
   return(
     <>
       <HEAD>
-      <script src="https://kit.fontawesome.com/f27abcd726.js" crossorigin="anonymous"></script>
+      <Script src="https://kit.fontawesome.com/f27abcd726.js" crossorigin="anonymous"></Script>
       </HEAD>
       <heder className={styles.Header}>
         <Link href="/">
