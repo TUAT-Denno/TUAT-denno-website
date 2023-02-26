@@ -1,8 +1,12 @@
+body{
+  padding-top: 83px;
+  margin: 0 auto;
+}
 li {
   list-style: none;
 }
 a{
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color:inherit;
 }
