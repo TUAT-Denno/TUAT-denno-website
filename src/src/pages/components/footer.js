@@ -20,7 +20,7 @@ export default function Footer(){
                 <div className={styles.list}>
                   {/* リンクはgooglemapより */}
                   <a href="https://goo.gl/maps/VSqkKW5YZmoBkvMn7" target="_blank" rel="noopener noreferrer">
-                    <li>Acsess</li>
+                    <li>Access</li>
                   </a>
                   <p>東京農工大学 小金井キャンパス 部室等のどこか</p>
                 </div>
@@ -59,7 +59,7 @@ export default function Footer(){
             </nav>
           </div>
         
-          <small className={styles.footer}>TUAT-Denno official website</small>
+          <small className={styles.footer}>TUAT-Denno-CLUB official website</small>
         </footer>
         
       </>

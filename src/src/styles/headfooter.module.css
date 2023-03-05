@@ -1,27 +1,29 @@
-.hlogo{
+.hlogo {
+    /*headerの高さ-2*2 */
     height: 76px;
+    width: 155px;
     margin-top: 2px;
+    object-fit: contain;
 }
 
-
-.headnav{
+.headnav {
     display: flex;
     margin: 0;
     line-height: 80px;
 }
 
-.headnav li{
+.headnav li {
     font-size: 16px;
-    margin:0 16px;
+    margin: 0 16px;
 }
 
-.Header{
+.Header {
     height: 80px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 4%;
-    
+    color: rgb(70, 157, 4);
     border-bottom: 3px solid lightblue;
     background-color: rgb(255, 255, 255);
 
@@ -35,51 +37,51 @@
 
 }
 
-.Footer{
+.Footer {
     background-color: lightblue;
     padding: 32px 4%;
     margin-top: 8px;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.ftitle h2{
+.ftitle h2 {
     margin: 0;
     margin-right: 120px;
 }
 
-.footnav{
-    margin :0;
-    padding-left:0;
-    
+.footnav {
+    margin: 0;
+    padding-left: 0;
+
 }
 
-.list{
+.list {
     padding-bottom: 12px;
 }
 
-.list p{
+.list p {
     font-size: 12px;
     margin: 0;
 }
 
 
-.ficon{
+.ficon {
     display: flex;
-    padding :12px 0;
+    padding: 12px 0;
     margin: 0;
-    
+
 }
 
-.iconlist{
+.iconlist {
     padding: 0 16px;
 }
 
-.footer{
+.footer {
     display: block;
     text-align: center;
     font-size: 12px;
-    margin:8px;
+    margin: 8px;
 }

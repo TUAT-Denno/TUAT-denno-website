@@ -2,17 +2,26 @@ import Link from 'next/link'
 import HEAD from 'next/head'
 import styles from '@/styles/headfooter.module.css'
 import Script from "next/script"
+import Image from 'next/image'
+import icon from '../../../public/denno-ico.png'
 
-export default function Header(){
-  return(
+export default function Header() {
+  return (
     <>
       <HEAD>
-      <Script src="https://kit.fontawesome.com/f27abcd726.js" crossorigin="anonymous"></Script>
+        <Script src="https://kit.fontawesome.com/f27abcd726.js" crossorigin="anonymous"></Script>
       </HEAD>
-      <heder className={styles.Header}>
-        <Link href="/">
-          <img className={styles.hlogo} src="/dennno-ico.png" alt="icon"></img>
-        </Link>
+      <header className={styles.Header}>
+        <div>
+          <Link href={"/"}>
+            <Image
+              priority={true}
+              src={icon}
+              alt="icon"
+              className={styles.hlogo}
+            />
+          </Link>
+        </div>
         <nav>
           <ul className={styles.headnav}>
             <Link href="/">
@@ -20,7 +29,7 @@ export default function Header(){
             </Link>
 
             <Link href="/about">
-              <li>ABOUT</li> 
+              <li>ABOUT</li>
             </Link>
 
             <Link href="/gallery">
@@ -41,9 +50,9 @@ export default function Header(){
             </a>
 
           </ul>
-         </nav>
-      </heder>
-      
+        </nav>
+      </header>
+
     </>
-    )
+  )
 }

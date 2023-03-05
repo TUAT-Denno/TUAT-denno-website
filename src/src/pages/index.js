@@ -24,7 +24,7 @@ export default function Home() {
           
           <div className={styles.hometitle}>
             <h2>Welcome to</h2>
-            <h1>DENNO-CIRCLE!</h1>
+            <h1>DENNO-CLUB!</h1>
           </div>
           
         </main>
