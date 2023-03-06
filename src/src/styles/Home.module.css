@@ -1,35 +1,55 @@
-
-
-.hometitle{
-    margin:auto;
+.hometitle {
     text-align: center;
-    
+    width: 50%;
+    display: inline-block;
+    background-color: rgb(195, 250, 219);
+    color: rgb(255, 255, 255);
+    vertical-align: top;
 }
 
+/*アスペクト比を維持したまま改行処理を行わない画像*/
+.picture {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.begin_animation {
+    animation-name: begin;
+    animation-duration: 5s;
+    /*0sからアニメーションを始めないと透明度0が適用されない*/
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes begin {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) {}
 
-}
-
-@media (prefers-reduced-motion) {
-
-}
+@media (prefers-reduced-motion) {}
 
 /* Mobile */
-@media (max-width: 700px) {
-
-}
+@media (max-width: 700px) {}
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (min-width: 701px) and (max-width: 1120px) {}
 
-}
+@media (prefers-color-scheme: dark) {}
 
-@media (prefers-color-scheme: dark) {
-
-}
-
-@keyframes rotate {
-
-}
+@keyframes rotate {}
