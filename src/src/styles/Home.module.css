@@ -7,7 +7,7 @@
     vertical-align: top;
 }
 
-/*アスペクト比を維持したまま改行処理を行わない画像*/
+/*画像のアスペクト比を維持したまま改行処理を行わない*/
 .picture {
     width: 50%;
     height: auto;
@@ -15,6 +15,7 @@
     vertical-align: middle;
 }
 
+/*かなり途中なので注意*/
 .begin_animation {
     animation-name: begin;
     animation-duration: 5s;
