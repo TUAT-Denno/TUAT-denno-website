@@ -3,7 +3,7 @@ import HEAD from 'next/head'
 import styles from '@/styles/headfooter.module.css'
 import Script from "next/script"
 import Image from 'next/image'
-import icon from '../../../public/denno-ico.png'
+import icon from '/public/denno-ico.png'
 
 export default function Header() {
   return (
@@ -13,9 +13,11 @@ export default function Header() {
       </HEAD>
       <header className={styles.Header}>
         <div>
-          <Link href={"/"}>
+          <Link href="/">
             <Image
               priority={true}
+              height={76}
+              width={155}
               src={icon}
               alt="icon"
               className={styles.hlogo}
@@ -46,7 +48,7 @@ export default function Header() {
             </a>
 
             <a href="https://twitter.com/noko_denno" target="_blank" rel="noopener noreferrer">
-              <li><i className="fa-brands fa-twitter"></i></li>
+              <li><i className="fa-brands fa-twitter"></i>TWITTER</li>
             </a>
 
           </ul>

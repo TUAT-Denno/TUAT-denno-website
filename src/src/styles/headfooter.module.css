@@ -1,7 +1,4 @@
 .hlogo {
-    /*headerの高さ-2*2 */
-    height: 76px;
-    width: 155px;
     margin-top: 2px;
     object-fit: contain;
 }
