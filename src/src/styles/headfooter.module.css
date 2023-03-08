@@ -18,7 +18,7 @@
 }
 
 .Header {
-    z-index: 9999;
+    z-index: 999;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -39,10 +39,13 @@
 }
 
 .Footer {
-    z-index: 9999;
+    z-index: 999;
     background-color: lightblue;
+    width: 100%;
     padding: 32px 4%;
     margin-top: 8px;
+    position: fixed;
+    bottom: 0;
 }
 
 .flex {
