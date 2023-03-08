@@ -4,7 +4,7 @@
     position: fixed;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: 3vw;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -33,7 +33,7 @@
     animation-fill-mode: forwards;
 }
 
-.welcome span {
+.welcome space {
     display: inline-block;
     margin: 0 10px;
 }

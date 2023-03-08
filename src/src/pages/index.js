@@ -19,11 +19,7 @@ export default function Home() {
       </Head>
       <div className={styles.welcome_back}>
         <div className={styles.welcome}>
-          <span>Welcome</span>
-          <span>to</span>
-          <span>TUAT</span >
-          <span>DENNO-CLUB</span>
-          <span>Website!!</span>
+          <space>Welcome</space> <space>to</space> <space>TUAT</space > <space>DENNO-CLUB</space> <space>Website!!</space>
         </div>
       </div>
       <HEADER />
