@@ -10,4 +10,4 @@ services:
      - WATCHPACK_POLLING=true
     ports:
       - "1313:3000"
-    command: sh -c "cd src && npm install && npm run dev"
+    command: sh -c "cd src&& npm run dev"
