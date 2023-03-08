@@ -31,8 +31,7 @@ export default function Home() {
 
         <main>
           <div className={styles.hometitle}>
-            <h2>Welcome to</h2>
-            <h1>DENNO-CLUB!</h1>
+            <h1>電脳サークルへようこそ！</h1>
           </div>
         </main>
       </div>
