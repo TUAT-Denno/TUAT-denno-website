@@ -6,6 +6,14 @@
     object-fit: contain;
 }
 
+.twlogo {
+    /*twitterロゴはMinimum width = 32pxの制限在り*/
+    height: 32px;
+    width: 32px;
+    /* (headerの高さ-32px)/2 */
+    margin-top: 24px;
+}
+
 .headnav {
     display: flex;
     margin: 0;
@@ -18,7 +26,6 @@
 }
 
 .Header {
-    z-index: 999;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -39,7 +46,7 @@
 }
 
 .Footer {
-    z-index: 999;
+    z-index: 900;
     background-color: lightblue;
     width: 100%;
     padding: 32px 4%;
