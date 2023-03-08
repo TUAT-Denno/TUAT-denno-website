@@ -22,7 +22,7 @@ export default function Footer(){
                   <a href="https://goo.gl/maps/VSqkKW5YZmoBkvMn7" target="_blank" rel="noopener noreferrer">
                     <li>Access</li>
                   </a>
-                  <p>東京農工大学 小金井キャンパス 部室棟2階</p>
+                  <p>東京農工大学 小金井キャンパス 部室棟 A205</p>
                 </div>
 
                 <div className={styles.list}>
