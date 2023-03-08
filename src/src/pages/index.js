@@ -31,7 +31,7 @@ export default function Home() {
 
         <main>
           <div className={styles.hometitle}>
-            <h1>電脳サークルへようこそ！</h1>
+            <h1>電脳サークルへようこそ！！</h1>
           </div>
         </main>
       </div>
