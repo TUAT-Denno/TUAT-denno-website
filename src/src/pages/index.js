@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
+import code_pic from "public/index_pictures/code.png"
+import RealBoard_pic from "public/index_pictures/RealBoard.png"
 import HEADER from './components/header'
 import FOOTER from './components/footer'
 
@@ -24,10 +26,25 @@ export default function Home() {
       </div>
       <HEADER />
       <div className={styles.container}>
-
         <main>
-          <div className={styles.hometitle}>
-            <h1>電脳サークルへようこそ！！</h1>
+          <div className={styles.hometitle_container}>
+            <div className={styles.hometitle}>
+              <h1>電脳サークルへようこそ！！</h1>
+            </div>
+          </div>
+          <div className={styles.picture_container}>
+            <Image
+              src={code_pic}
+              alt="toufu's atcoder code"
+              className={styles.picture1}
+            />
+
+            {/*自分のPCスペックでは画質が終わってるので，強いPC持ってる人置換お願いします */}
+            <Image
+              src={RealBoard_pic}
+              alt="Real Board"
+              className={styles.picture2}
+            />
           </div>
         </main>
       </div>
