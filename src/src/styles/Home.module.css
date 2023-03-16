@@ -17,7 +17,7 @@
     animation: appear 2s ease-in 0s 1 normal forwards, disapper 1s ease-in 2s 1 normal forwards;
 }
 
-.welcome_back {
+.welcome_background {
     z-index: 1000;
     background-color: aliceblue;
     height: 100vh;

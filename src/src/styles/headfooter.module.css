@@ -31,9 +31,9 @@
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 4%;
-    color: rgb(70, 157, 4);
+    color: rgb(0, 0, 0);
     border-bottom: 3px solid lightblue;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(141, 251, 165);
 
     /* scroll */
     position: fixed;
