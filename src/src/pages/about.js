@@ -20,7 +20,15 @@ export default function Home() {
 
       <HEADER />
       <main>
-        <p>This is about page</p>
+        <div style={{ paddingLeft: '2px' }}>
+          <h1>企画、製作、発表、ものづくりの全てを楽しむ</h1>
+        </div>
+        <div style={{ paddingLeft: '25px' }}>
+          <p>2021年東京農工大学公認サークルとして新たに発足した我々は、<br></br>
+            プログラミングやAI、電子工作、3d プリンターなどを活用しサークルで作品を制作し<br></br>
+            一年を通して企画から製造そして発表まで、ものづくりの楽しさを余すことなく体験することをコンセプトに活動しています。
+          </p>
+        </div>
       </main>
       <FOOTER />
 
