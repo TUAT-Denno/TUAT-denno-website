@@ -32,6 +32,7 @@ export default function Home() {
               <h1>電脳サークルへようこそ！！</h1>
             </div>
           </div>
+          {/*とりあえず適当なコードですが，もしあったらRealBoardとかのコードとかの方が良いかも*/}
           <div className={styles.picture_container}>
             <Image
               src={code_pic}
