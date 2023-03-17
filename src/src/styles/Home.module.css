@@ -14,7 +14,7 @@
     overflow: hidden;
     /*appearアニメーションを2秒,その後disappearアニメーションを2秒*/
     /*disappearを変更する場合は.welcome_backも同様にしてください*/
-    animation: appear 2s ease-in 0s 1 normal forwards, disapper 1s ease-in 2s 1 normal forwards;
+    animation: welcome_appear 2s ease-in 0s 1 normal forwards, welcome_disapper 1s ease-in 2s 1 normal forwards;
 }
 
 .welcome_background {
@@ -24,7 +24,7 @@
     width: 100vw;
     position: fixed;
     /*変更する場合は.welcomeも同様にしてください*/
-    animation-name: disapper;
+    animation-name: welcome_disapper;
     animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-delay: 2s;
@@ -38,7 +38,7 @@
     margin: 0 0.5vw;
 }
 
-@keyframes appear {
+@keyframes welcome_appear {
     from {
         width: 0%;
     }
@@ -48,7 +48,7 @@
     }
 }
 
-@keyframes disapper {
+@keyframes welcome_disapper {
     0% {
         opacity: 1;
     }
@@ -91,7 +91,7 @@
     object-fit: cover;
     object-position: left top;
     opacity: 0;
-    animation: picture_appear 6s linear 2s infinite normal none, picture_disappear 6s linear 5s infinite normal none;
+    animation: picture_appear 8s linear -8s infinite normal none, picture_disappear 8s linear -4s infinite normal none;
 }
 
 .picture2 {
@@ -101,7 +101,7 @@
     overflow: hidden;
     object-fit: cover;
     opacity: 0;
-    animation: picture_appear 6s linear 5s infinite normal none, picture_disappear 6s linear 8s infinite normal none;
+    animation: picture_appear 8s linear -4s infinite normal none, picture_disappear 8s linear 0s infinite normal none;
 }
 
 /*アニメーション毎に遅延を入れるために重なっている処理*/
