@@ -91,6 +91,8 @@
     object-fit: cover;
     object-position: left top;
     opacity: 0;
+    /*appearの50%経過でdisappearが動き出すように． 逆もしかり*/
+    /*delayを負の値にすることでちらつきが解消されているので負の値で*/
     animation: picture_appear 8s linear -8s infinite normal none, picture_disappear 8s linear -4s infinite normal none;
 }
 
