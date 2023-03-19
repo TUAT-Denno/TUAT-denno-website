@@ -6,20 +6,28 @@
     padding-left: 10px;
 }
 
+.product_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .text_container {
-    width: 49%;
+    width: 50%;
     height: 28vw;
     display: inline-block;
     vertical-align: top;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 /*画面サイズ小さいと崩壊します*/
 .normalTEXT {
-    transform: translateY(40%);
     padding-left: 35px;
     font-size: large;
 }
+
 
 .picture_container {
     padding-left: 3px;
