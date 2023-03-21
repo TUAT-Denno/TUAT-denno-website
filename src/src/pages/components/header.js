@@ -5,6 +5,7 @@ import Script from "next/script"
 import Image from 'next/image'
 import denno_icon from 'public/denno-ico.png'
 import twitter_icon from 'public/Twitter_icon.png'
+import HAMBURGER from './hamburger'
 
 export default function Header() {
   return (
@@ -23,6 +24,7 @@ export default function Header() {
             />
           </Link>
         </div>
+        <HAMBURGER />
         <nav>
           <ul className={styles.headnav}>
             <Link href="/">

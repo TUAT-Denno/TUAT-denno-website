@@ -1,0 +1,87 @@
+import Link from 'next/link'
+import HEAD from 'next/head'
+import styles from '@/styles/hamburger.module.css'
+import Script from "next/script"
+import Image from 'next/image'
+import denno_icon from 'public/denno-ico.png'
+import twitter_icon from 'public/Twitter_icon.png'
+
+import { useState } from 'react'
+
+export default function HAMBURGER() {
+    const [isOpen, setIsOpen] = useState(false)
+
+    const toggleOpen = () => {
+        setIsOpen(!isOpen)
+    }
+
+    return (
+        <div>
+            <div className={styles.menu_icon_container}>
+                {/* ハンバーガーマーク */}
+                <div className={styles.hamburger_icon} onClick={toggleOpen}>
+                    <div className={isOpen ? styles.hamburger_icon_disappear : ''}>
+                        <div className={!isOpen ? styles.hamburger_icon_appear : ''}>
+                            <div className={styles.hamburger_icon_line} />
+                            <div className={styles.hamburger_icon_line} />
+                            <div className={styles.hamburger_icon_line} />
+                        </div>
+                    </div>
+                </div>
+                {/* ばつマーク */}
+                <div className={styles.cross_icon} onClick={toggleOpen}>
+                    <div className={!isOpen ? styles.cross_icon_disappear : ''}>
+                        <div className={isOpen ? styles.cross_icon_appear : ''}>
+                            <div className={styles.cross_icon_line} style={{
+                                transform: 'rotate(45deg)',
+                                position: 'absolute'
+                            }} />
+                            <div className={styles.cross_icon_line} style={{ transform: 'rotate(-45deg)' }} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {isOpen && (
+                //メニュー
+                <div className={styles.menu}>
+                    <Link href="/">
+                        <li>HOME</li>
+                    </Link>
+
+                    <Link href="/about">
+                        <li>ABOUT</li>
+                    </Link>
+
+                    <Link href="/gallery">
+                        <li>GALLERY</li>
+                    </Link>
+
+                    <Link href="/faq">
+                        <li>FAQ</li>
+                    </Link>
+
+                    <Link href="/access">
+                        <li>ACCESS</li>
+                    </Link>
+
+                    {/* リンクを入部フォームにする */}
+                    <a href="https://www.tuat.ac.jp/" target="_blank" rel="noopener noreferrer">
+                        <li>JOIN</li>
+                    </a>
+                    <a href="https://twitter.com/noko_denno" target="_blank" rel="noopener noreferrer">
+                        <li><i className="fa-brands fa-twitter"></i>
+                            <Image
+                                priority={true}
+                                src={twitter_icon}
+                                alt="icon"
+                                className={styles.twlogo}
+                            /></li>
+                    </a>
+
+                    <button onClick={toggleOpen}>Close</button>
+                </div>
+            )}
+        </div>
+    )
+}

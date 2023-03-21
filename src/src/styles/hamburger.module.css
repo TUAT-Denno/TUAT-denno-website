@@ -1,0 +1,123 @@
+.menu_icon_container {
+    position: relative;
+    cursor: pointer;
+    margin: 16px;
+    margin-top: 30px;
+}
+
+.hamburger_icon {
+    position: absolute;
+}
+
+.hamburger_icon_line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 6px;
+}
+
+.hamburger_icon_appear {
+    animation-name: hamburger_icon_rotate;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+
+.hamburger_icon_disappear {
+    animation-name: hamburger_icon_rotate;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hamburger_icon_rotate {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+
+    to {
+        transform: scale(0) rotate(360deg);
+    }
+}
+
+.cross_icon {
+    margin-top: 7px;
+    position: absolute;
+}
+
+.cross_icon_line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+}
+
+.cross_icon_appear {
+    animation-name: cross_icon_rotate;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+
+.cross_icon_disappear {
+    animation-name: cross_icon_rotate;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cross_icon_rotate {
+    from {
+        transform: scale(1) rotate(360deg);
+    }
+
+    to {
+        transform: scale(0) rotate(0deg);
+    }
+}
+
+.menu {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.twlogo {
+    /*twitterロゴはMinimum width = 32pxの制限在り*/
+    height: 60px;
+    width: 60px;
+}
