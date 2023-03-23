@@ -1,8 +1,9 @@
 .menu_icon_container {
-    position: fixed;
+    position: static;
     cursor: pointer;
-    margin: 16px;
+    margin: 30px;
     z-index: 150;
+    background-color: red;
 }
 
 .hamburger_icon {
@@ -89,12 +90,12 @@
 
 .menu {
     position: fixed;
-    top: 0;
+    top: 83px;
     left: 0;
     width: 100vw;
     height: 100vh;
     background-color: white;
-    z-index: 100;
+    z-index: -100;
     display: flex;
     flex-direction: column;
     justify-content: center;

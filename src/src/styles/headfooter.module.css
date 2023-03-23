@@ -4,6 +4,16 @@
     width: 155px;
     margin-top: 2px;
     object-fit: contain;
+    margin-left: 20px;
+}
+
+@media (max-width: 900px) {
+    .hlogo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .twlogo {
@@ -14,10 +24,30 @@
     margin-top: 24px;
 }
 
+.left_container {
+    display: flex;
+}
+
+@media (max-width: 900px) {
+    .left {
+        align-self: flex-start;
+    }
+
+    .right {
+        margin: 0 auto;
+    }
+}
+
 .headnav {
     display: flex;
     margin: 0;
     line-height: 80px;
+}
+
+@media (max-width: 900px) {
+    .headnav {
+        display: none;
+    }
 }
 
 .headnav li {
@@ -25,15 +55,15 @@
     margin: 0 16px;
 }
 
+
 .Header {
     height: 80px;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     padding: 0 4%;
     color: rgb(0, 0, 0);
     border-bottom: 3px solid lightblue;
-    background-color:rgb(248,246,237);
+    background-color: white;
 
     /* scroll */
     position: fixed;
@@ -43,6 +73,18 @@
     left: 0;
     right: 0;
 
+}
+
+@media (min-width: 900px) {
+    .Header {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 900px) {
+    .Header {
+        justify-content: space-between;
+    }
 }
 
 /*要素が少ないときに下に配置されなくなるので要検討*/

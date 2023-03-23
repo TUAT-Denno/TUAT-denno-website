@@ -1,5 +1,5 @@
 .welcome {
-    z-index: 1001;
+    z-index: 5;
     display: flex;
     position: fixed;
     justify-content: center;
@@ -18,7 +18,7 @@
 }
 
 .welcome_background {
-    z-index: 1000;
+    z-index: 1;
     background-color: aliceblue;
     height: 100vh;
     width: 100vw;

@@ -3,6 +3,7 @@ import HEAD from 'next/head'
 import styles from '@/styles/headfooter.module.css'
 import Script from "next/script"
 import Image from 'next/image'
+import React, { useState, useEffect } from 'react'
 import denno_icon from 'public/denno-ico.png'
 import twitter_icon from 'public/Twitter_icon.png'
 import HAMBURGER from './hamburger'
@@ -14,17 +15,21 @@ export default function Header() {
         <Script src="https://kit.fontawesome.com/f27abcd726.js" crossorigin="anonymous"></Script>
       </HEAD>
       <header className={styles.Header}>
-        <div>
-          <Link href={"/"}>
-            <Image
-              priority={true}
-              src={denno_icon}
-              alt="icon"
-              className={styles.hlogo}
-            />
-          </Link>
+        <div className={styles.left_container}>
+          <div className={styles.left}>
+            <HAMBURGER />
+          </div>
+          <div className={styles.right}>
+            <Link href={"/"}>
+              <Image
+                priority={true}
+                src={denno_icon}
+                alt="icon"
+                className={styles.hlogo}
+              />
+            </Link>
+          </div>
         </div>
-        <HAMBURGER />
         <nav>
           <ul className={styles.headnav}>
             <Link href="/">
