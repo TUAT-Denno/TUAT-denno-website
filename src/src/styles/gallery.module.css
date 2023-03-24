@@ -7,6 +7,13 @@
 }
 
 .product_container {
+    position: sticky;
+    top: 0;
+    padding-top: 80px;
+    background-color: rgb(0, 238, 255);
+}
+
+.pictureANDtext {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,12 +29,10 @@
     align-items: center;
 }
 
-/*画面サイズ小さいと崩壊します*/
 .normalTEXT {
     padding-left: 35px;
     font-size: large;
 }
-
 
 .picture_container {
     padding-left: 3px;
@@ -48,6 +53,7 @@
     object-fit: cover;
     object-position: left top;
 }
+
 
 .url {
     color: blue;

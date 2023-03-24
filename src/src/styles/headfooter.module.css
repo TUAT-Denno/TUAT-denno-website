@@ -71,7 +71,7 @@
     background-color: white;
 
     /* scroll */
-    position: fixed;
+    position: sticky;
 
     z-index: 10;
     top: 0;
