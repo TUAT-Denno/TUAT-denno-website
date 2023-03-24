@@ -8,7 +8,7 @@ import HEADER from './components/header'
 import FOOTER from './components/footer'
 
 import RealBoard_picture from "public/gallery_pictures/RealBoard/RealBoard.png"
-import RealBoard_Logo from "public/gallery_pictures/RealBoard/RealBoardLogo.PNG"
+import RealBoard_Logo from "public/gallery_pictures/RealBoard/RealBoardLogo.png"
 import jojo_picture from "public/gallery_pictures/jojo_dummy.png"
 
 
