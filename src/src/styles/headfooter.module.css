@@ -58,8 +58,17 @@
 .headnav li {
     font-size: 16px;
     margin: 0 16px;
+    text-decoration-color: transparent;
+    text-decoration-skip-ink: none;
+    transition: text-decoration 0.5s ease-in-out;
 }
 
+.headnav li:hover {
+    text-decoration: underline overline;
+    text-decoration-color: blue;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 4px;
+}
 
 .Header {
     height: 80px;
