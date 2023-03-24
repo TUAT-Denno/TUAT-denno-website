@@ -24,31 +24,43 @@ export default function Home() {
           <space>Welcome</space> <space>to</space> <space>TUAT</space > <space>DENNO-CLUB</space> <space>Website!!</space>
         </div>
       </div>
-      <HEADER />
-      <div className={styles.container}>
-        <main>
-          <div className={styles.hometitle_container}>
-            <div className={styles.hometitle}>
-              <h1>電脳サークルへようこそ！！</h1>
-            </div>
+      <main>
+        <div className={styles.hometitle_container}>
+          <div className={styles.hometitle}>
+            <h1>電脳サークルへようこそ！！</h1>
           </div>
-          {/*とりあえず適当なコードですが，もしあったらRealBoardとかのコードとかの方が良いかも*/}
-          <div className={styles.picture_container}>
-            <Image
-              src={code_pic}
-              alt="toufu's atcoder code"
-              className={styles.picture1}
-            />
+        </div>
+        {/*とりあえず適当なコードですが，もしあったらRealBoardとかのコードとかの方が良いかも*/}
+        <div className={styles.picture_container}>
+          <Image
+            src={code_pic}
+            alt="code"
+            className={styles.picture1}
+          />
 
-            {/*自分のPCスペックでは画質が終わってるので，強いPC持ってる人置換お願いします */}
-            <Image
-              src={RealBoard_pic}
-              alt="Real Board"
-              className={styles.picture2}
-            />
-          </div>
-        </main>
-      </div>
+          <Image
+            src={RealBoard_pic}
+            alt="Real Board"
+            className={styles.picture2}
+          />
+        </div>
+        <HEADER />
+        <nav className={styles.LinkList} >
+          <Link className={styles.pageIntroduction} style={{ backgroundColor: 'rgb(63, 154, 104)' }} href={"/about"}>
+            <h1>ABOUT</h1>
+          </Link>
+
+          <Link className={styles.pageIntroduction} style={{ backgroundColor: 'rgb(0,58,70)' }} href={"/gallery"}>
+            <h1>GALLERY</h1>
+          </Link>
+          <Link className={styles.pageIntroduction} style={{ backgroundColor: 'rgb(62, 115, 154)' }} href={"/faq"}>
+            <h1>FAQ</h1>
+          </Link>
+          <Link className={styles.pageIntroduction} style={{ backgroundColor: 'black' }} href={"/access"}>
+            <h1>ACCESS</h1>
+          </Link>
+        </nav>
+      </main>
       <FOOTER />
     </>
   )
