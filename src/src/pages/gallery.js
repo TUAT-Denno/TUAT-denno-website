@@ -7,8 +7,8 @@ import styles from '@/styles/gallery.module.css'
 import HEADER from './components/header'
 import FOOTER from './components/footer'
 
-import RealBoard_Logo from "public/gallery_pictures/RealBoard/RealBoardLogo.png"
 import RealBoard_picture from "public/gallery_pictures/RealBoard/RealBoard.png"
+import RealBoard_Logo from "public/gallery_pictures/RealBoard/RealBoardLogo.PNG"
 import jojo_picture from "public/gallery_pictures/jojo_dummy.png"
 
 
