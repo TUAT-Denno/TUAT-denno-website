@@ -93,6 +93,7 @@
     width: 100%;
     height: calc(100vh - 83px);
     flex-direction: column;
+    overflow: hidden;
 }
 
 .pageIntroduction {
@@ -103,8 +104,17 @@
     background-color: rgb(62, 115, 154);
 }
 
+.pageIntroduction:hover {
+    transition: transform 0.7s ease-in-out;
+    width: 100%;
+    height: 25%;
+    transform: scale(1.02);
+}
+
+
+
 .pageIntroduction h1 {
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 
