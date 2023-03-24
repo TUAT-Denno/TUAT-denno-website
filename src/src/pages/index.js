@@ -19,11 +19,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/dennofavicon.png" />
       </Head>
-      <div className={styles.welcome_background}>
-        <div className={styles.welcome}>
-          <space>Welcome</space> <space>to</space> <space>TUAT</space > <space>DENNO-CLUB</space> <space>Website!!</space>
-        </div>
-      </div>
       <main>
         <div className={styles.hometitle_container}>
           <div className={styles.hometitle}>
