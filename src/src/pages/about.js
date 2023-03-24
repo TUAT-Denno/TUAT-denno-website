@@ -2,13 +2,14 @@ import Head from 'next/head'
 import Link from "next/link"
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/about.module.css'
+
+import MakerFaire_Picture from 'public/about_pictures/MakerFaire.png'
 
 import HEADER from './components/header'
 import FOOTER from './components/footer'
 
-
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
@@ -29,6 +30,11 @@ export default function Home() {
             一年を通して企画から製造そして発表まで、ものづくりの楽しさを余すことなく体験することをコンセプトに活動しています。
           </p>
         </div>
+        <Image
+          src={MakerFaire_Picture}
+          alt="MakerFaire"
+          className={styles.picture}
+        />
       </main>
       <FOOTER />
 
