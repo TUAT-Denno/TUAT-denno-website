@@ -29,9 +29,16 @@ export default function About() {
             プログラミングやAI、電子工作、3Dプリンターなどを活用しサークルで作品を制作し<br></br>
             一年を通して企画から製造そして発表まで、ものづくりの楽しさを余すことなく体験することをコンセプトに活動しています。
           </p>
-          <h3>↓入部はこちらから</h3>
+          <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer" className={styles.url}>
+            <h3>入部はこちらから</h3>
+          </a>
         </div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffXKMr5i5Eup2s-CUSnN0WbUXYaQJVtlrI7bSJ_CH2CnVrPw/viewform?embedded=true" width="640" height="439" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        <Image
+          src={MakerFaire_Picture}
+          alt="MakerFaire_Picture"
+          className={styles.picture}
+        />
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffXKMr5i5Eup2s-CUSnN0WbUXYaQJVtlrI7bSJ_CH2CnVrPw/viewform?embedded=true" width="640" height="439" frameborder="0" marginheight="0" marginwidth="0" className={styles.clubJoin}>読み込んでいます…</iframe>
       </main>
       <FOOTER />
 

@@ -1,5 +1,21 @@
-.picture {
-    width: 50%;
-    height: auto;
-    margin-left: 50%;
+@media (min-width: 768px) {
+    .picture {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .url {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    .clubJoin {
+        display: none;
+    }
+
+    .picture {
+        width: 100%;
+        height: 50vh;
+    }
 }
