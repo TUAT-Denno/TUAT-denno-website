@@ -22,7 +22,7 @@ export default function Home() {
       <main>
         <div className={styles.hometitle_container}>
           <div className={styles.hometitle}>
-            <h1>電脳サークルへようこそ！！</h1>
+            <h1>東京農工大学 電脳サークルへようこそ！！</h1>
           </div>
         </div>
         {/*とりあえず適当なコードですが，もしあったらRealBoardとかのコードとかの方が良いかも*/}
