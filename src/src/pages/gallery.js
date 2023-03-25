@@ -61,7 +61,7 @@ export default function Gallery() {
                 臨場感あふれる、よりリアルなスノボー感を追求するため、自然のグラフィックやサウンドにこだわりました。
                 また、専用コントローラーの”リボコン”により<b>触覚再現や本物のスノボーに近い重心移動による操作</b>が可能になり、
                 ゲームが得意でない方でも直感的に操作できます。<br /><br />
-                ダウンロードは<b><a href='https://gameparade.creators-guild.com/works/751' className={styles.url}> こちら</a></b>から
+                ダウンロードは<b><a href='https://gameparade.creators-guild.com/works/751' className={styles.url} target="_blank" rel="noopener noreferrer"> こちら</a></b>から
               </p>
             </div>
           </div>
