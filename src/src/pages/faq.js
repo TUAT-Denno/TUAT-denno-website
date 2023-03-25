@@ -59,8 +59,8 @@ export default function Home() {
         </details>
 
         <details>
-          <summary className={styles.question}>サークルの入部に必要な知識は？</summary>
-          入部するために必要なレベルや知識はありません。<br />
+          <summary className={styles.question}>サークルに参加するためには、特定の学部や学科に所属する必要がありますか？</summary>
+          どの学部学科でも参加できます。
         </details>
       </main>
       <FOOTER />
