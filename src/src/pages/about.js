@@ -38,6 +38,7 @@ export default function About() {
           alt="MakerFaire_Picture"
           className={styles.picture}
         />
+        {/*formの埋め込み*/}
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffXKMr5i5Eup2s-CUSnN0WbUXYaQJVtlrI7bSJ_CH2CnVrPw/viewform?embedded=true" width="640" height="439" frameborder="0" marginheight="0" marginwidth="0" className={styles.clubJoin}>読み込んでいます…</iframe>
       </main>
       <FOOTER />
