@@ -1,0 +1,9 @@
+.url {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.question {
+    cursor: pointer;
+}
