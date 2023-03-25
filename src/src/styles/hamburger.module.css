@@ -6,6 +6,7 @@
 
 .hamburger_icon {
     position: absolute;
+    z-index: 150;
 }
 
 .hamburger_icon_line {
