@@ -54,14 +54,11 @@ export default function Gallery() {
           <div className={styles.text_container}>
             <div className={styles.normalTEXT}>
               <p>
-                {/*適当なので後でちゃんと考える*/}
-                体感型スノボゲーム”RealBoard”では、特殊なコントローラーを使い実際のプレイングボードの傾きと
-                ゲーム画面上のプレイヤーの動きを連動させることで、<b>今までにない臨場感</b>を体験できます。
-                さらに実際にゲレンデを滑るサウンドや振動を再現し、よりリアルな滑走体験を演出します。
-                臨場感あふれる、よりリアルなスノボー感を追求するため、自然のグラフィックやサウンドにこだわりました。
-                また、専用コントローラーの”リボコン”により<b>触覚再現や本物のスノボーに近い重心移動による操作</b>が可能になり、
-                ゲームが得意でない方でも直感的に操作できます。<br /><br />
-                ダウンロードは<b><a href='https://gameparade.creators-guild.com/works/751' className={styles.url} target="_blank" rel="noopener noreferrer"> こちら</a></b>から
+                RealBoardは<b>体感型スノボゲーム</b> です。
+                特殊なコントローラーでプレイヤーの重心を検出し、それに合わせてボードを制御し動かすことで、
+                実際のスノーボードに近い体験をできます。
+                入力に対するキャラクターの動きや物理演算、グラフィックなどのソフト部分はUnreal Engine5、Blenderでの制作です。
+                <br /><br />ダウンロードは<b><a href='https://gameparade.creators-guild.com/works/751' className={styles.url} target="_blank" rel="noopener noreferrer"> こちら</a></b>から
               </p>
             </div>
           </div>
