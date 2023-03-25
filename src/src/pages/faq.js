@@ -29,8 +29,7 @@ export default function Home() {
 
         <details>
           <summary className={styles.question}>活動頻度は？</summary>
-          定期的なサークル全体の活動は週一回で、月曜日の22時から1時間程度のオンラインミーティングを行っています。<br />
-          ミーティングでは進捗報告や、次回の活動内容の決定などを行っています。<br />
+          定期的なサークル全体の活動は週一回で、月曜日の22時から1時間程度のオンラインミーティングを行っています。
         </details>
 
         <details>
@@ -40,13 +39,13 @@ export default function Home() {
 
         <details>
           <summary className={styles.question}>入部方法は？ </summary>
-          以下のGoogleフォームから入部希望をお知らせください。農工大のGoogleアカウントでログインしていないとフォームを送信できませんので注意してください。<br />
+          下記のGoogleフォームから入部希望をお知らせください。<br />
           <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer" className={styles.url}>https://forms.gle/m3sc5g7V8iBU11oP9</a>
         </details>
 
         <details>
           <summary className={styles.question}>入部フォーム送信後の流れは？</summary>
-          こちらからメールをお送りしますので、メールを確認するようにしてください。
+          こちらからメールをお送りします。
         </details>
 
         <details>
@@ -57,7 +56,6 @@ export default function Home() {
         <details>
           <summary className={styles.question}>部室は？</summary>
           部室は、東京農工大学小金井キャンパスの部室A棟の205にあります。<br />
-          必要に応じて部室で活動を行っています。
         </details>
 
         <details>
