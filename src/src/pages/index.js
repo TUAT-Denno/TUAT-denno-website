@@ -42,17 +42,17 @@ export default function Home() {
         <HEADER />
         <nav className={styles.LinkList} >
           <Link className={styles.pageIntroduction} style={{ backgroundColor: 'rgb(63, 154, 104)' }} href={"/about"}>
-            <h1>ABOUT</h1>
+            <h1>ABOUT →</h1>
           </Link>
 
           <Link className={styles.pageIntroduction} style={{ backgroundColor: 'rgb(0,58,70)' }} href={"/gallery"}>
-            <h1>GALLERY</h1>
+            <h1>GALLERY →</h1>
           </Link>
           <Link className={styles.pageIntroduction} style={{ backgroundColor: 'rgb(62, 115, 154)' }} href={"/faq"}>
-            <h1>FAQ</h1>
+            <h1>FAQ →</h1>
           </Link>
           <Link className={styles.pageIntroduction} style={{ backgroundColor: 'black' }} href={"/access"}>
-            <h1>ACCESS</h1>
+            <h1>ACCESS →</h1>
           </Link>
         </nav>
       </main>
