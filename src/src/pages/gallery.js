@@ -44,7 +44,6 @@ export default function Gallery() {
             </div>
           </div>
           <div className={styles.picture_container}>
-            {/*ドライブの写真使用許可もらったら置換*/}
             <Image
               src={RealBoard_picture}
               alt="RealBoard"

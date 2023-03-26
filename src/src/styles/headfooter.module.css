@@ -64,10 +64,10 @@
 }
 
 .headnav li:hover {
-    text-decoration: underline overline;
-    text-decoration-color: blue;
+    text-decoration: underline;
+    text-decoration-color: #1586c3;
     text-decoration-skip-ink: none;
-    text-underline-offset: 4px;
+    text-underline-offset: 5px;
 }
 
 .Header {
@@ -75,7 +75,8 @@
     display: flex;
     margin: 0 auto;
     padding: 0 4%;
-    color: rgb(0, 0, 0);
+    color: #1586c3;
+    /* solid means no gradient */
     border-bottom: 1px solid #1586c3;
     border-top: 1px solid #1586c3;
     background-color: white;
