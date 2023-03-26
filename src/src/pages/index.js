@@ -43,25 +43,26 @@ export default function Home() {
         <div className={styles.concept_container}>
           <Image
             src={code_pic}
-            alt="toufu's atcoder code"
+            alt="code"
             className={styles.concept_picture}
           />
           <div className={styles.concept_con}>
             <h4>Concept</h4>
             <h2>企画、製作、発表、ものづくりの全てを楽しむ</h2>
-            <p>2021年東京農工大学公認サークルとして新たに発足した我々は、プログラミングやAI，電子工作，3d プリンターなどを活用しサ ークルで作品を制作し一年を通して企画から製造そして発表まで、ものづくりの楽しさを余す ことなく体験することをコンセプトに活動しています。</p>
+            <p>2021年東京農工大学公認サークルとして新たに発足した我々は、
+              プログラミングやAI、電子工作、3Dプリンターなどを活用しサークルで作品を制作し
+              一年を通して企画から製造そして発表まで、ものづくりの楽しさを余すことなく体験することをコンセプトに活動しています。</p>
           </div>
-
         </div>
 
         <div className={styles.gallery_container}>
           <div className={styles.gallery_con}>
             <h4>Gallery</h4>
             <h2>作った分だけ強くなる。</h2>
-            <p>ゲーム、webサイト、cpu、ロボットみんなで作った分だけ強くなる。</p>
-            <p>電脳サークルが作ってきた作品の記録是非ご覧ください。</p>
+            <p>ゲーム、コントローラー、CPU<br />みんなで作った分だけ強くなる。</p>
+            <p>電脳サークルが作ってきた作品の記録をご覧ください。</p>
             <Link href="/gallery">
-              <p>作品一覧はこちら</p>
+              <button><p>作品一覧はこちら</p></button>
             </Link>
           </div>
           <Image

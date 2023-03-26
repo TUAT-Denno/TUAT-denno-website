@@ -132,9 +132,10 @@
 
 @keyframes rotate {}
 
-.concept_container{
-    border-bottom:1px solid #1586c3 ;
+.concept_container {
+    border-bottom: 1px solid #1586c3;
 }
+
 .concept_picture {
     position: relative;
     width: 50%;
@@ -144,32 +145,52 @@
     overflow: hidden;
     object-fit: cover;
     object-position: left top;
-    padding:1%;
-    border-right:1px solid #1586c3 ;
+    padding: 1%;
+    border-right: 1px solid #1586c3;
     box-sizing: border-box;
 }
+
 .concept_con {
     width: 50%;
     display: inline-block;
     vertical-align: middle;
     height: 100vh;
-    padding:1%;
+    padding: 1%;
     box-sizing: border-box;
 }
 
-.gallery_container{
-    border-bottom:1px solid #1586c3 ;
+.gallery_container {
+    border-bottom: 1px solid #1586c3;
 }
-.gallery_con{
+
+.gallery_con {
     width: 50%;
     display: inline-block;
     vertical-align: middle;
     height: 100vh;
-    padding:1%;
-    border-right:1px solid #1586c3 ;
+    padding: 1%;
+    border-right: 1px solid #1586c3;
     box-sizing: border-box;
 }
-.gallery_picture{
+
+.gallery_con button {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #1586c3;
+    border-color: #1586c3;
+    cursor: pointer;
+}
+
+.gallery_con button:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.gallery_con button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.8), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.gallery_picture {
     position: relative;
     width: 50%;
     height: 100vh;
@@ -177,36 +198,41 @@
     vertical-align: middle;
     overflow: hidden;
     object-fit: cover;
-    object-position: left top;
-    padding:1%;
+    object-position: center top;
+    padding: 1%;
     box-sizing: border-box;
 }
 
-.news_container{
-    border-bottom:1px solid #1586c3 ;
+
+
+.news_container {
+    border-bottom: 1px solid #1586c3;
 }
 
-.faqjointwitter{
+.faqjointwitter {
     display: flex;
     justify-content: space-between;
     height: 500px;
 }
 
-.faqjoin{
+.faqjoin {
     width: 50%;
-    border-right:1px solid #1586c3 ;
+    border-right: 1px solid #1586c3;
     box-sizing: border-box;
 }
-.faq_container{
+
+.faq_container {
     border-bottom: 1px solid #1586c3;
     box-sizing: border-box;
     height: 50%;
 }
-.join_container{
+
+.join_container {
     box-sizing: border-box;
 }
-.twitter{
+
+.twitter {
     width: 50%;
     box-sizing: border-box;
-    padding:1%;
+    padding: 1%;
 }
