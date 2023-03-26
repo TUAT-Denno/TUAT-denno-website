@@ -76,7 +76,8 @@
     margin: 0 auto;
     padding: 0 4%;
     color: rgb(0, 0, 0);
-    border-bottom: 3px solid lightblue;
+    border-bottom: 1px solid #1586c3;
+    border-top: 1px solid #1586c3;
     background-color: white;
 
     /* scroll */
@@ -105,9 +106,9 @@
 /*position: fixed;を用いると常にページに表示されてしまう*/
 .Footer {
     z-index: 900;
-    background-color: lightblue;
+    background-color: #1586c3;
     padding: 32px 4%;
-    margin-top: 8px;
+    color: white;
 }
 
 .flex {

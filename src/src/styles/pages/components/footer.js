@@ -6,6 +6,9 @@ import Script from "next/script"
 export default function Footer() {
   return (
     <>
+      <HEAD>
+        <Script src="https://kit.fontawesome.com/f27abcd726.js" crossorigin="anonymous"></Script>
+      </HEAD>
       <footer className={styles.Footer}>
         <div className={styles.flex}>
           <Link href="/" className={styles.ftitle}>
@@ -30,10 +33,11 @@ export default function Footer() {
               </div>
 
               <div className={styles.list}>
-                <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer">
+                {/* リンクを入部フォームにする */}
+                <a href="https://www.tuat.ac.jp/" target="_blank" rel="noopener noreferrer">
                   <li>Join</li>
-                  <p>入部フォーム</p>
                 </a>
+                <p>入部フォーム</p>
               </div>
 
             </ul>
@@ -41,13 +45,13 @@ export default function Footer() {
             <ul className={styles.ficon}>
               <div className={styles.iconlist}>
                 <a href="https://twitter.com/noko_denno" target="_blank" rel="noopener noreferrer">
-                  <li></li>
+                  <li><i className="fa-brands fa-twitter fa-2x"></i></li>
                 </a>
               </div>
 
               <div className={styles.iconlist}>
                 <a href="https://github.com/TUAT-Denno" target="_blank" rel="noopener noreferrer">
-                  <li></li>
+                  <li><i className="fa-brands fa-github fa-2x"></i></li>
                 </a>
               </div>
             </ul>

@@ -11,7 +11,9 @@ import HAMBURGER from './hamburger'
 export default function Header() {
   return (
     <>
-
+      <HEAD>
+        <Script src="https://kit.fontawesome.com/f27abcd726.js" crossorigin="anonymous"></Script>
+      </HEAD>
       <header className={styles.Header}>
         <div className={styles.left_container}>
           <div className={styles.left}>
@@ -50,12 +52,13 @@ export default function Header() {
               <li>ACCESS</li>
             </Link>
 
-            <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer">
+            {/* リンクを入部フォームにする */}
+            <a href="https://www.tuat.ac.jp/" target="_blank" rel="noopener noreferrer">
               <li>JOIN</li>
             </a>
 
             <a href="https://twitter.com/noko_denno" target="_blank" rel="noopener noreferrer">
-              <li>
+              <li><i className="fa-brands fa-twitter"></i>
                 <Image
                   priority={true}
                   src={twitter_icon}

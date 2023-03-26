@@ -132,3 +132,82 @@
 @media (prefers-color-scheme: dark) {}
 
 @keyframes rotate {}
+
+.concept_container{
+    border-bottom:1px solid #1586c3 ;
+}
+.concept_picture {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: left top;
+    padding:1%;
+    border-right:1px solid #1586c3 ;
+    box-sizing: border-box;
+}
+.concept_con {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100vh;
+    padding:1%;
+    box-sizing: border-box;
+}
+
+.gallery_container{
+    border-bottom:1px solid #1586c3 ;
+}
+.gallery_con{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100vh;
+    padding:1%;
+    border-right:1px solid #1586c3 ;
+    box-sizing: border-box;
+}
+.gallery_picture{
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: left top;
+    padding:1%;
+    box-sizing: border-box;
+}
+
+.news_container{
+    border-bottom:1px solid #1586c3 ;
+}
+
+.faqjointwitter{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.faqjoin{
+    width: 50%;
+    border-right:1px solid #1586c3 ;
+    box-sizing: border-box;
+}
+.faq_container{
+    border-bottom: 1px solid #1586c3;
+    box-sizing: border-box;
+    height: 50%;
+}
+.join_container{
+    box-sizing: border-box;
+}
+.twitter{
+    width: 50%;
+    box-sizing: border-box;
+    padding:1%;
+}
