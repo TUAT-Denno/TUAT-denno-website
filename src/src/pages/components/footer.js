@@ -8,17 +8,19 @@ export default function Footer() {
     <>
       <footer className={styles.Footer}>
         <div className={styles.flex}>
-          <Link href="/" className={styles.ftitle}>
-            <h2>電脳サークル</h2>
-          </Link>
+          <div>
+            <Link href="/" style={{ backgroundColor: 'red' }}>
+              <h2>電脳サークル</h2>
+            </Link>
+          </div>
           <nav>
             <ul className={styles.footnav}>
 
               <div className={styles.list}>
-                <Link href="/access">
+                <a href="https://goo.gl/maps/LEYRrrU6ZEEuRNoT7" target="_blank" rel="noopener noreferrer">
                   <li>Access</li>
                   <p>東京農工大学 小金井キャンパス 部室棟 A205</p>
-                </Link>
+                </a>
               </div>
 
               <div className={styles.list}>
