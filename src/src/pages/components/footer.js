@@ -9,7 +9,7 @@ export default function Footer() {
       <footer className={styles.Footer}>
         <div className={styles.flex}>
           <div>
-            <Link href="/" style={{ backgroundColor: 'red' }}>
+            <Link href="/">
               <h2>電脳サークル</h2>
             </Link>
           </div>
