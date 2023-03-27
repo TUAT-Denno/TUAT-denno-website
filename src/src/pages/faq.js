@@ -62,6 +62,12 @@ export default function Home() {
           <summary className={styles.question}>サークルに参加するためには、特定の学部や学科に所属する必要がありますか？</summary>
           どの学部学科でも参加できます。
         </details>
+
+        <details>
+          <summary className={styles.question}>連絡が取りたい</summary>
+          以下のメールアドレスにメールをお送りください。<br />
+          <a href="mailto:noko.denno@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.url}>noko.denno@gmail.com</a>
+        </details>
       </main>
       <FOOTER />
 

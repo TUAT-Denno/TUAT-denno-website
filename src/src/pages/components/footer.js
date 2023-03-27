@@ -23,10 +23,10 @@ export default function Footer() {
 
               <div className={styles.list}>
                 {/* とりあえず質問箱 */}
-                <a href="https://t.co/ZF59XsfvuR" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:noko.denno@gmail.com " target="_blank" rel="noopener noreferrer">
                   <li>Contact</li>
+                  <p>Mail adress: noko.denno@gmail.com </p>
                 </a>
-                <p>Mail adress:</p>
               </div>
 
               <div className={styles.list}>
