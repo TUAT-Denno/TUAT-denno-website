@@ -94,7 +94,7 @@ export default function Home() {
 
             <div className={styles.twitter}>
               <h3>Twitter</h3>
-              <a class="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light" href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno</a><script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light" href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
           </div>
         </div>
