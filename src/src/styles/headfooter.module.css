@@ -113,15 +113,9 @@
     display: flex;
 }
 
-.ftitle h2 {
-    margin: 0;
-    margin-right: 120px;
-}
-
 .footnav {
     margin: 0;
-    padding-left: 0;
-
+    padding-left: 120px;
 }
 
 .list {
@@ -132,7 +126,6 @@
     font-size: 12px;
     margin: 0;
 }
-
 
 .ficon {
     display: flex;
