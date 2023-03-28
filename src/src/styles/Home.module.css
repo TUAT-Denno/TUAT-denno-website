@@ -164,6 +164,24 @@
     box-sizing: border-box;
 }
 
+.About_con button {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #1586c3;
+    border-color: #1586c3;
+    cursor: pointer;
+}
+
+.About_con button:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.About_con button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.8), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
 .gallery_container {
     border-bottom: 1px solid #1586c3;
     background-color: white;

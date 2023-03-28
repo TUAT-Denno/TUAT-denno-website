@@ -52,6 +52,9 @@ export default function Home() {
             <p>2021年東京農工大学公認サークルとして新たに発足した我々は、
               プログラミングやAI、電子工作、3Dプリンターなどを活用しサークルで作品を制作し
               一年を通して企画から製造そして発表まで、ものづくりの楽しさを余すことなく体験することをコンセプトに活動しています。</p>
+            <Link href="/gallery">
+              <button><p>詳しくはこちら</p></button>
+            </Link>
           </div>
         </div>
 
@@ -94,7 +97,7 @@ export default function Home() {
 
             <div className={styles.twitter}>
               <h3>Twitter</h3>
-              <a class="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light" href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno<br /><br /> 読み込んでいます…</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a className="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light" href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno<br /><br /> 読み込んでいます…</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
           </div>
         </div>
