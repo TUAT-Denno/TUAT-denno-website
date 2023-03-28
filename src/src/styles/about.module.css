@@ -28,6 +28,11 @@
 }
 
 @media (max-width: 900px) {
+    .textContainer {
+        border-top: 1px solid #1586c3;
+        border-right: 1px solid #1586c3;
+    }
+
     .mapContainer {
         border-top: 1px solid #1586c3;
         text-align: center;
