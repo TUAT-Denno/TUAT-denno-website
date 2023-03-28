@@ -51,26 +51,26 @@ export default function HAMBURGER() {
                 isOpen && (
                     //メニュー
                     <div className={styles.menu}>
-                        <Link href="/">
+                        <Link href="/" onClick={toggleOpen}>
                             <li>HOME</li>
                         </Link>
 
-                        <Link href="/about">
+                        <Link href="/about" onClick={toggleOpen}>
                             <li>ABOUT</li>
                         </Link>
 
-                        <Link href="/gallery">
+                        <Link href="/gallery" onClick={toggleOpen}>
                             <li>GALLERY</li>
                         </Link>
 
-                        <Link href="/faq">
+                        <Link href="/faq" onClick={toggleOpen}>
                             <li>FAQ</li>
                         </Link>
 
                         <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer">
                             <li>JOIN</li>
                         </a>
-                        <a href="https://twitter.com/noko_denno" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/noko_denno" target="_blank" rel="noopener noreferrer" >
                             <li><i className="fa-brands fa-twitter"></i>
                                 <Image
                                     priority={true}
