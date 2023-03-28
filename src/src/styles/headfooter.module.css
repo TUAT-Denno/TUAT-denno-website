@@ -107,6 +107,7 @@
     background-color: #1586c3;
     padding: 32px 4%;
     color: white;
+    position: sticky;
 }
 
 .flex {

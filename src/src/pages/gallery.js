@@ -9,8 +9,7 @@ import FOOTER from './components/footer'
 
 import RealBoard_picture from "public/gallery_pictures/RealBoard/RealBoard.png"
 import RealBoard_Logo from "public/gallery_pictures/RealBoard/RealBoardLogo.png"
-import jojo_picture from "public/gallery_pictures/jojo_dummy.png"
-
+import jojo_picture from "public/gallery_pictures/jojo/jojo.jpg"
 
 export default function Gallery() {
   return (
@@ -39,7 +38,7 @@ export default function Gallery() {
 
         <div className={styles.page_container}>
           <div className={styles.title}>
-            <div className={styles.h1}>
+            <div className={styles.h1} style={{ color: "rgb(154, 198, 255)" }}>
               <h1>RealBoard</h1>
             </div>
           </div>
@@ -65,11 +64,18 @@ export default function Gallery() {
         {/*ここまで */}
 
         <div className={styles.page_container}>
-          <div className={styles.introduce}>
-            <h1>・ジョジョ立ちプロジェクト</h1>
-          </div>
+          <Image
+            src={jojo_picture}
+            alt="jojo"
+            className={styles.picture}
+          />
         </div>
         <div className={styles.page_container}>
+          <div className={styles.title}>
+            <div className={styles.h1}>
+              <h1>ジョジョ立ちプロジェクト</h1>
+            </div>
+          </div>
           <div className={styles.picture_container}>
             <Image
               src={jojo_picture}
@@ -80,12 +86,16 @@ export default function Gallery() {
           <div className={styles.text_container}>
             <div className={styles.normalTEXT}>
               <p>
-                ジョジョ立ちを検知し、後ろのモニターに表示する
+                ジョジョ立ちプロジェクトは、東京農工大学ステージ研究会さん(
+                <a href="https://twitter.com/tuatsyoumei" className={styles.url} target="_blank" rel="noopener noreferrer">@tuatsyoumei</a>
+                )と協力して行いました。
+                Openposeを用いて骨格推定を行い、前処理を行った後、各関節の信頼度を考慮した重み付き距離の総和により見本のジョジョ立ちと比較することで、
+                ポーズがどのキャラクターのジョジョ立ちなのか認識し、幽波紋(スタンド)を透過スクリーンに投影します。
               </p>
             </div>
           </div>
         </div>
-      </main>
+      </main >
       <FOOTER />
 
     </>
