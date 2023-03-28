@@ -169,7 +169,7 @@
     padding: 10px 20px;
     background-color: white;
     color: #1586c3;
-    border-color: #1586c3;
+    border: 1px #1586c3 solid;
     cursor: pointer;
 }
 
@@ -207,7 +207,7 @@
     padding: 10px 20px;
     background-color: white;
     color: #1586c3;
-    border-color: #1586c3;
+    border: 1px #1586c3 solid;
     cursor: pointer;
 }
 
