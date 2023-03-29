@@ -39,6 +39,17 @@
     }
 }
 
+.Form{
+    width:90%;
+    height:500px;
+}
+
+@media (max-width: 600px) {
+    .Form {
+        display: none;
+    }
+}
+
 .url {
     color: blue;
     text-decoration: underline;
