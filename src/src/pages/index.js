@@ -6,7 +6,6 @@ import styles from '@/styles/Home.module.css'
 
 import code_pic from "public/index_pictures/code.png"
 import RealBoard_pic from "public/index_pictures/RealBoard.png"
-import favicon from "public/dennofavicon.png"
 import HEADER from './components/header'
 import FOOTER from './components/footer'
 
@@ -18,7 +17,7 @@ export default function Home() {
         <title>東京農工大学 電脳サークル</title>
         <meta name="description" content="東京農工大学電脳サークルの紹介ページ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href={favicon} /> 
+        <link rel="icon" href="public/dennofavicon.png" /> 
       </Head>
       <main>
         <div className={styles.hometitle_container}>
