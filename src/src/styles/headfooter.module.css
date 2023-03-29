@@ -60,7 +60,7 @@
     margin: 0 16px;
     text-decoration-color: transparent;
     text-decoration-skip-ink: none;
-    transition: text-decoration 0.25s ease-in-out;
+    transition: text-decoration 0.1s ease-in-out;
 }
 
 .headnav li:hover {

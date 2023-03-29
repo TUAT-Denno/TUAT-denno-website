@@ -6,6 +6,7 @@ import styles from '@/styles/Home.module.css'
 
 import code_pic from "public/index_pictures/code.png"
 import RealBoard_pic from "public/index_pictures/RealBoard.png"
+import favicon from "public/dennofavicon.png"
 import HEADER from './components/header'
 import FOOTER from './components/footer'
 
@@ -17,7 +18,7 @@ export default function Home() {
         <title>東京農工大学 電脳サークル</title>
         <meta name="description" content="東京農工大学電脳サークルの紹介ページ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/dennofavicon.png" />
+        <link rel="icon" href={favicon} /> 
       </Head>
       <main>
         <div className={styles.hometitle_container}>
@@ -77,7 +78,7 @@ export default function Home() {
 
         <div className={styles.news_container}>
           <div className={styles.news_titel_container}>
-            <h3>NEWS</h3>
+            <h3>OTHERS</h3>
           </div>
           <div className={styles.faqjointwitter}>
             <div className={styles.faqjoin}>
@@ -97,7 +98,7 @@ export default function Home() {
 
             <div className={styles.twitter}>
               <h3>Twitter</h3>
-              <a className="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light" href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno<br /><br /> 読み込んでいます…</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a className="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light" href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno<br /><br /> 読み込んでいます…</a><script async src="https://platform.twitter.com/widgets.js" ></script>
             </div>
           </div>
         </div>
