@@ -17,7 +17,7 @@ export default function Home() {
         <title>東京農工大学 電脳サークル</title>
         <meta name="description" content="東京農工大学電脳サークルの紹介ページ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="public/dennofavicon.png" /> 
+        <link rel="icon" href="public/dennofavicon.png" />
       </Head>
       <main>
         <div className={styles.hometitle_container}>
@@ -81,18 +81,14 @@ export default function Home() {
           </div>
           <div className={styles.faqjointwitter}>
             <div className={styles.faqjoin}>
-              <div className={styles.faq_container}>
+              <Link href="/faq" className={styles.faq_container}>
                 <h3>FAQ</h3>
-                <Link href="/faq">
-                  <p>よくある質問</p>
-                </Link>
-              </div>
-              <div className={styles.join_container}>
+                <p>よくある質問</p>
+              </Link>
+              <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer" className={styles.join_container}>
                 <h3>Join</h3>
-                <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer">
-                  入部はこちらから
-                </a>
-              </div>
+                入部はこちらから
+              </a>
             </div>
 
             <div className={styles.twitter}>
