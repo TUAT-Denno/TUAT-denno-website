@@ -34,6 +34,11 @@ export default function About() {
               </a>
               <aside style={{ display: "inline-block" }}>※農工大のGoogleアカウントでログインしている必要があります</aside>
             </h4>
+            <Image
+              src={MakerFaire_Picture}
+              alt="MakerFaire"
+              className={styles.picture}
+            />
             {/*formの埋め込み*/}
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffXKMr5i5Eup2s-CUSnN0WbUXYaQJVtlrI7bSJ_CH2CnVrPw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" className={styles.Form}>読み込んでいます…</iframe>
           </div>

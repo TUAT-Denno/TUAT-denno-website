@@ -1,8 +1,4 @@
-@media (min-width: 750px) {
-    .picture {
-        display: none;
-    }
-
+@media (min-width: 900px) {
     .container {
         display: flex;
         flex-direction: row;
@@ -27,7 +23,7 @@
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     .textContainer {
         border-top: 1px solid #1586c3;
         border-right: 1px solid #1586c3;
@@ -39,14 +35,26 @@
     }
 }
 
-.Form{
-    width:90%;
-    height:500px;
+/* windowsでのウィンドウの最小幅が500pxっぽい？ので、500px以下のときで切り替える */
+@media (min-width: 500px) {
+    .Form {
+        width: 90%;
+        height: 500px;
+    }
+
+    .picture {
+        display: none;
+    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 499px) {
     .Form {
         display: none;
+    }
+
+    .picture {
+        width: 100%;
+        height: auto;
     }
 }
 
