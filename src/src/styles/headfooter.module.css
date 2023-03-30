@@ -63,7 +63,8 @@
     transition: text-decoration 0.1s ease-in-out;
 }
 
-.headnav li:hover {
+/* Link内部のaタグにすることで文字の上にhoverせずとも下線が表示される */
+.headnav a:hover {
     text-decoration: underline;
     text-decoration-color: #1586c3;
     text-decoration-skip-ink: none;
