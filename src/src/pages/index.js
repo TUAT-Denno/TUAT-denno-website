@@ -49,9 +49,9 @@ export default function Home() {
           <div className={styles.About_con}>
             <h4>About</h4>
             <h2>企画、製作、発表、ものづくりの全てを楽しむ</h2>
-            <p>2021年東京農工大学公認サークルとして新たに発足した我々は、
-              プログラミングやAI、電子工作、3Dプリンターなどを活用しサークルで作品を制作し
-              一年を通して企画から製造そして発表まで、ものづくりの楽しさを余すことなく体験することをコンセプトに活動しています。</p>
+            <p>
+              CPUや電子工作、ゲーム開発など、ものづくりの楽しさを余すことなく体験することをコンセプトに活動しています。
+            </p>
             <Link href="/about">
               <button><p>詳しくはこちら</p></button>
             </Link>
@@ -62,7 +62,7 @@ export default function Home() {
           <div className={styles.gallery_con}>
             <h4>Gallery</h4>
             <h2>作った分だけ強くなる。</h2>
-            <p>ゲーム、コントローラー、CPU<br />みんなで作った分だけ強くなる。</p>
+            <p>CPU、電子工作、ゲーム開発<br />みんなで作った分だけ強くなる。</p>
             <p>電脳サークルが作ってきた作品の記録をご覧ください。</p>
             <Link href="/gallery">
               <button><p>作品一覧はこちら</p></button>
@@ -93,7 +93,7 @@ export default function Home() {
 
             <div className={styles.twitter}>
               <h3>Twitter</h3>
-              <a className="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light" href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno<br /><br /> 読み込んでいます…</a><script async src="https://platform.twitter.com/widgets.js" ></script>
+              <a className="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light"  href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno<br /><br /> 読み込んでいます…</a><script async src="https://platform.twitter.com/widgets.js" ></script>
             </div>
           </div>
         </div>

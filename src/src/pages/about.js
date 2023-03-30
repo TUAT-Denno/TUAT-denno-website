@@ -26,8 +26,8 @@ export default function About() {
         </div>
         <div className={styles.container}>
           <div className={styles.textContainer}>
-            <h4>　2021年東京農工大学公認サークルとして新たに発足した我々は、
-              プログラミングやAI、電子工作、3Dプリンターなどを活用しサークルで作品を制作し
+            <h4>2021年東京農工大学公認サークルとして新たに発足した我々は、
+              プログラミングやAI、電子工作、3Dプリンターなどを活用してサークルで作品を製作し、
               一年を通して企画から製造そして発表まで、ものづくりの楽しさを余すことなく体験することをコンセプトに活動しています。<br />
               <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer" className={styles.url}>
                 <h3>入部はこちらから</h3>

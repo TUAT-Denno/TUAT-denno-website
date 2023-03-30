@@ -24,7 +24,7 @@ export default function Home() {
         {/*summaryタグで囲まれている部分が質問*/}
         <details>
           <summary className={styles.question}>サークルの活動内容は？ </summary>
-          活動内容は、ゲーム制作やCPU製作、コントローラーの製作などです。
+          CPU、電子工作、ゲーム開発の3つを主な活動内容としています。
         </details>
 
         <details>
