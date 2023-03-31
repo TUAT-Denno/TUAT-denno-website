@@ -38,7 +38,7 @@ export default function Footer() {
 
             </ul>
 
-            <ul className={styles.ficon}>
+            {/* <ul className={styles.ficon}>
               <div className={styles.iconlist}>
                 <a href="https://twitter.com/noko_denno" target="_blank" rel="noopener noreferrer">
                   <li></li>
@@ -50,7 +50,7 @@ export default function Footer() {
                   <li></li>
                 </a>
               </div>
-            </ul>
+            </ul> */}
           </nav>
         </div>
 

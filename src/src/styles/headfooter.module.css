@@ -136,7 +136,7 @@
 }
 
 
-.ficon {
+/* .ficon {
     display: flex;
     padding: 12px 0;
     margin: 0;
@@ -145,11 +145,12 @@
 
 .iconlist {
     padding: 0 16px;
-}
+} */
 
 .footer {
     display: block;
     text-align: center;
     font-size: 12px;
     margin: 8px;
+    padding-top:48px;
 }
