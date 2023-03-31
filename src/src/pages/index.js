@@ -19,11 +19,7 @@ export default function Home() {
         <title>東京農工大学 電脳サークル</title>
         <meta name="description" content="東京農工大学電脳サークルの紹介ページ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-<<<<<<< HEAD
         <link rel="icon" href={favicon} />
-=======
-        <link rel="icon" href="public/dennofavicon.png" />
->>>>>>> ed1a4c88d501f686f762bcd70c5673ad56508cb4
       </Head>
       <main>
         <div className={styles.hometitle_container}>
