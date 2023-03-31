@@ -27,7 +27,7 @@ export default function Footer() {
                 {/* とりあえず質問箱 */}
                 <a href="mailto:noko.denno@gmail.com " target="_blank" rel="noopener noreferrer">
                   <li>Contact</li>
-                  <p>Mail adress: noko.denno@gmail.com </p>
+                  <p>Mail address: noko.denno@gmail.com </p>
                 </a>
               </div>
 
