@@ -1,21 +1,64 @@
-@media (min-width: 768px) {
+@media (min-width: 900px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .textContainer {
+        height: inherit;
+        width: calc(50% - 50px);
+        padding-left: 25px;
+        padding-right: 25px;
+        border-top: 1px solid #1586c3;
+        border-right: 1px solid #1586c3;
+    }
+
+    .mapContainer {
+        width: 50%;
+        height: inherit;
+        box-sizing: border-box;
+        text-align: center;
+        border-top: 1px solid #1586c3;
+    }
+}
+
+@media (max-width: 900px) {
+    .textContainer {
+        border-top: 1px solid #1586c3;
+        border-right: 1px solid #1586c3;
+    }
+
+    .mapContainer {
+        border-top: 1px solid #1586c3;
+        text-align: center;
+    }
+}
+
+/* windowsでのウィンドウの最小幅が500pxっぽい？ので、500px以下のときで切り替える */
+@media (min-width: 500px) {
+    .Form {
+        width: 90%;
+        height: 500px;
+    }
+
     .picture {
         display: none;
     }
 }
 
-@media (max-width: 768px) {
-    .url {
-        color: blue;
-        text-decoration: underline;
-    }
-
-    .clubJoin {
+@media (max-width: 499px) {
+    .Form {
         display: none;
     }
 
     .picture {
         width: 100%;
-        height: 50vh;
+        height: auto;
     }
+}
+
+.url {
+    color: blue;
+    text-decoration: underline;
 }

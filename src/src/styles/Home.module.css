@@ -96,28 +96,6 @@
     overflow: hidden;
 }
 
-.pageIntroduction {
-    display: flex;
-    width: 100%;
-    height: 25%;
-    color: white;
-    background-color: rgb(62, 115, 154);
-}
-
-.pageIntroduction:hover {
-    transition: transform 0.7s ease-in-out;
-    width: 100%;
-    height: 25%;
-    transform: scale(1.02);
-}
-
-
-
-.pageIntroduction h1 {
-    margin-left: 25px;
-}
-
-
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {}
 
@@ -133,81 +111,157 @@
 
 @keyframes rotate {}
 
-.concept_container{
-    border-bottom:1px solid #1586c3 ;
+.About_container {
+    border-bottom: 1px solid #1586c3;
+    display: flex;
+    position: sticky;
+    top: 83px;
+    width: 100%;
+    height: calc(100vh - 83px);
 }
-.concept_picture {
+
+.About_picture {
     position: relative;
     width: 50%;
-    height: 100vh;
+    height: 100%;
     display: inline-block;
     vertical-align: middle;
     overflow: hidden;
     object-fit: cover;
     object-position: left top;
-    padding:1%;
-    border-right:1px solid #1586c3 ;
-    box-sizing: border-box;
-}
-.concept_con {
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    height: 100vh;
-    padding:1%;
+    padding: 1%;
+    border-right: 1px solid #1586c3;
     box-sizing: border-box;
 }
 
-.gallery_container{
-    border-bottom:1px solid #1586c3 ;
-}
-.gallery_con{
+.About_con {
     width: 50%;
     display: inline-block;
     vertical-align: middle;
     height: 100vh;
-    padding:1%;
-    border-right:1px solid #1586c3 ;
+    padding: 1%;
     box-sizing: border-box;
 }
-.gallery_picture{
+
+.About_con button {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #1586c3;
+    border: 1px #1586c3 solid;
+    cursor: pointer;
+}
+
+.About_con button:hover {
+    background-color: #1586c30c;
+}
+
+.About_con button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.8), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+.gallery_container {
+    border-bottom: 1px solid #1586c3;
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 83px;
+    width: 100%;
+    height: calc(100vh - 83px);
+}
+
+.gallery_con {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100vh;
+    padding: 1%;
+    border-right: 1px solid #1586c3;
+    box-sizing: border-box;
+}
+
+.gallery_con button {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #1586c3;
+    border: 1px #1586c3 solid;
+    cursor: pointer;
+}
+
+.gallery_con button:hover {
+    background-color: #1586c30c;
+}
+
+.gallery_con button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.8), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.gallery_picture {
     position: relative;
     width: 50%;
-    height: 100vh;
+    height: 100%;
     display: inline-block;
     vertical-align: middle;
     overflow: hidden;
     object-fit: cover;
-    object-position: left top;
-    padding:1%;
+    object-position: center top;
+    padding: 1%;
     box-sizing: border-box;
 }
 
-.news_container{
-    border-bottom:1px solid #1586c3 ;
+.news_container {
+    background-color: white;
+    box-sizing: border-box;
+    position: sticky;
+    top: 83px;
 }
 
-.faqjointwitter{
+.news_titel_container {
+    border-top: 1px solid #1586c3;
+    border-bottom: 1px solid #1586c3;
+}
+
+.faqjointwitter {
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: calc(80vh);
+    width: 100%;
 }
 
-.faqjoin{
+.faqjoin {
+    height: 100%;
     width: 50%;
-    border-right:1px solid #1586c3 ;
+    border-right: 1px solid #1586c3;
     box-sizing: border-box;
 }
-.faq_container{
+
+.faq_container {
+    position: relative;
     border-bottom: 1px solid #1586c3;
     box-sizing: border-box;
     height: 50%;
+    width: 100%;
 }
-.join_container{
+
+.faq_container:hover {
+    background-color: #1586c30c;
+}
+
+.join_container {
     box-sizing: border-box;
+    height: 50%;
+    width: 100%;
 }
-.twitter{
+
+.join_container:hover {
+    background-color: #1586c30c;
+}
+
+.twitter {
+    height: 100%;
     width: 50%;
     box-sizing: border-box;
-    padding:1%;
+    padding: 1%;
 }

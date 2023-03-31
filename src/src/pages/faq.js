@@ -24,7 +24,7 @@ export default function Home() {
         {/*summaryタグで囲まれている部分が質問*/}
         <details>
           <summary className={styles.question}>サークルの活動内容は？ </summary>
-          活動内容は、ゲーム制作やCPU製作、コントローラーの製作などです。
+          CPU、電子工作、ゲーム開発の3つを主な活動内容としています。
         </details>
 
         <details>
@@ -61,6 +61,12 @@ export default function Home() {
         <details>
           <summary className={styles.question}>サークルに参加するためには、特定の学部や学科に所属する必要がありますか？</summary>
           どの学部学科でも参加できます。
+        </details>
+
+        <details>
+          <summary className={styles.question}>連絡が取りたい</summary>
+          以下のメールアドレスにメールをお送りください。<br />
+          <a href="mailto:noko.denno@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.url}>noko.denno@gmail.com</a>
         </details>
       </main>
       <FOOTER />

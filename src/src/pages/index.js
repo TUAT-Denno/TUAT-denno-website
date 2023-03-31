@@ -19,7 +19,11 @@ export default function Home() {
         <title>東京農工大学 電脳サークル</title>
         <meta name="description" content="東京農工大学電脳サークルの紹介ページ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+<<<<<<< HEAD
         <link rel="icon" href={favicon} />
+=======
+        <link rel="icon" href="public/dennofavicon.png" />
+>>>>>>> ed1a4c88d501f686f762bcd70c5673ad56508cb4
       </Head>
       <main>
         <div className={styles.hometitle_container}>
@@ -42,79 +46,63 @@ export default function Home() {
           />
         </div>
         <HEADER />
-        <div className={styles.concept_container}>
-            <Image
-              src={code_pic}
-              alt="toufu's atcoder code"
-              className={styles.concept_picture}
-            />
-            <div className={styles.concept_con}>
-              <h4>Concept</h4>
-              <h2>企画、製作、発表、ものづくりの全てを楽しむ</h2>
-              <p>2021年東京農工大学公認サークルとして新たに発足した我々は、プログラミングやAI，電子工作，3d プリンターなどを活用しサ ークルで作品を制作し一年を通して企画から製造そして発表まで、ものづくりの楽しさを余す ことなく体験することをコンセプトに活動しています。</p>
-            </div>
-            
+        <div className={styles.About_container}>
+          <Image
+            src={code_pic}
+            alt="code"
+            className={styles.About_picture}
+          />
+          <div className={styles.About_con}>
+            <h4>About</h4>
+            <h2>企画、製作、発表、ものづくりの全てを楽しむ</h2>
+            <p>
+              CPUや電子工作、ゲーム開発など、ものづくりの楽しさを余すことなく体験することをコンセプトに活動しています。
+            </p>
+            <Link href="/about">
+              <button><p>詳しくはこちら</p></button>
+            </Link>
           </div>
+        </div>
 
-          <div className={styles.gallery_container}>
-            <div className={styles.gallery_con}>
-              <h4>Gallery</h4>
-              <h2>作った分だけ強くなる。</h2>
-              <p>ゲーム、webサイト、cpu、ロボットみんなで作った分だけ強くなる。</p>
-              <p>電脳サークルが作ってきた作品の記録是非ご覧ください。</p>
-              <Link href="/gallery">
-                <p>作品一覧はこちら</p>
-              </Link>
-            </div>
-            <Image
-              src={RealBoard_pic}
-              alt="Real Board"
-              className={styles.gallery_picture}
-            />
+        <div className={styles.gallery_container}>
+          <div className={styles.gallery_con}>
+            <h4>Gallery</h4>
+            <h2>作った分だけ強くなる。</h2>
+            <p>CPU、電子工作、ゲーム開発<br />みんなで作った分だけ強くなる。</p>
+            <p>電脳サークルが作ってきた作品の記録をご覧ください。</p>
+            <Link href="/gallery">
+              <button><p>作品一覧はこちら</p></button>
+            </Link>
           </div>
+          <Image
+            src={RealBoard_pic}
+            alt="Real Board"
+            className={styles.gallery_picture}
+          />
+        </div>
 
-          <div className={styles.news_container}>
-            <div className={styles.news_con}>
-             <h3>NEWS</h3>
-            </div>
-            
+        <div className={styles.news_container}>
+          <div className={styles.news_titel_container}>
+            <h3>OTHERS</h3>
           </div>
           <div className={styles.faqjointwitter}>
             <div className={styles.faqjoin}>
-              <div className={styles.faq_container}>
+              <Link href="/faq" className={styles.faq_container}>
                 <h3>FAQ</h3>
-                <Link href="/faq">
-                  <p>よくある質問</p>
-                </Link>
-              </div>
-              <div className={styles.join_container}>
+                <p>よくある質問</p>
+              </Link>
+              <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer" className={styles.join_container}>
                 <h3>Join</h3>
-                <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer">
                 入部はこちらから
-                </a>
-              </div>
+              </a>
             </div>
 
             <div className={styles.twitter}>
               <h3>Twitter</h3>
-              <a class="twitter-timeline" data-lang="ja" data-height="400" data-theme="light" href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a className="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light"  href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno<br /><br /> 読み込んでいます…</a><script async src="https://platform.twitter.com/widgets.js" ></script>
             </div>
           </div>
-        {/* <nav className={styles.LinkList} >
-          <Link className={styles.pageIntroduction} style={{ backgroundColor: 'rgb(63, 154, 104)' }} href={"/about"}>
-            <h1>ABOUT →</h1>
-          </Link>
-
-          <Link className={styles.pageIntroduction} style={{ backgroundColor: 'rgb(0,58,70)' }} href={"/gallery"}>
-            <h1>GALLERY →</h1>
-          </Link>
-          <Link className={styles.pageIntroduction} style={{ backgroundColor: 'rgb(62, 115, 154)' }} href={"/faq"}>
-            <h1>FAQ →</h1>
-          </Link>
-          <Link className={styles.pageIntroduction} style={{ backgroundColor: 'black' }} href={"/access"}>
-            <h1>ACCESS →</h1>
-          </Link>
-        </nav> */}
+        </div>
       </main>
       <FOOTER />
     </>

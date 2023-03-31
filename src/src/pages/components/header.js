@@ -46,10 +46,6 @@ export default function Header() {
               <li>FAQ</li>
             </Link>
 
-            <Link href="/access">
-              <li>ACCESS</li>
-            </Link>
-
             <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer">
               <li>JOIN</li>
             </a>

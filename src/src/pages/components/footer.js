@@ -8,25 +8,27 @@ export default function Footer() {
     <>
       <footer className={styles.Footer}>
         <div className={styles.flex}>
-          <Link href="/" className={styles.ftitle}>
-            <h2>電脳サークル</h2>
-          </Link>
+          <div>
+            <Link href="/">
+              <h2>電脳サークル</h2>
+            </Link>
+          </div>
           <nav>
             <ul className={styles.footnav}>
 
               <div className={styles.list}>
-                <Link href="/access">
+                <a href="https://goo.gl/maps/LEYRrrU6ZEEuRNoT7" target="_blank" rel="noopener noreferrer">
                   <li>Access</li>
                   <p>東京農工大学 小金井キャンパス 部室棟 A205</p>
-                </Link>
+                </a>
               </div>
 
               <div className={styles.list}>
                 {/* とりあえず質問箱 */}
-                <a href="https://t.co/ZF59XsfvuR" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:noko.denno@gmail.com " target="_blank" rel="noopener noreferrer">
                   <li>Contact</li>
+                  <p>Mail adress: noko.denno@gmail.com </p>
                 </a>
-                <p>Mail adress:</p>
               </div>
 
               <div className={styles.list}>
