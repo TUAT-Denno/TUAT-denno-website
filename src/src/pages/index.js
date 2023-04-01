@@ -14,12 +14,12 @@ import FOOTER from './components/footer'
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>東京農工大学 電脳サークル</title>
         <meta name="description" content="東京農工大学電脳サークルの紹介ページ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="public/dennofavicon.png" />
-      </Head>
+      </Head> */}
       <main>
         <div className={styles.hometitle_container}>
           <div className={styles.hometitle}>
