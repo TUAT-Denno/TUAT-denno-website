@@ -18,7 +18,7 @@ export default function Header() {
             <HAMBURGER />
           </div>
           <div className={styles.right}>
-            <Link href={"/"}>
+            <Link href={"/"} className={styles.hlogo_container}>
               <Image
                 priority={true}
                 src={denno_icon}
