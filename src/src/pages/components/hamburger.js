@@ -5,7 +5,7 @@ import Script from "next/script"
 import Image from 'next/image'
 import twitter_icon from 'public/Twitter_icon.png'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function HAMBURGER() {
     const [isOpen, setIsOpen] = useState(false)
@@ -17,6 +17,15 @@ export default function HAMBURGER() {
         //ページを開いたときにアニメーションが働かないように，ボタンが押されたタイミングで処理を開始
         setIsAnimated(true);
     }
+
+    useEffect(() => {
+        if (isOpen) {
+            document.body.style.overflow = "hidden";
+        }
+        else {
+            document.body.style.overflow = "unset";
+        }
+    }, [isOpen]);
 
     return (
         <div>
