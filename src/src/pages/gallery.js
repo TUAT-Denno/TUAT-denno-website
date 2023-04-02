@@ -7,8 +7,9 @@ import styles from '@/styles/gallery.module.css'
 import HEADER from './components/header'
 import FOOTER from './components/footer'
 
-import RealBoard_picture from "public/gallery_pictures/RealBoard/RealBoard.png"
 import RealBoard_Logo from "public/gallery_pictures/RealBoard/RealBoardLogo.png"
+import RealBoard_picture from "public/gallery_pictures/RealBoard/RealBoard.png"
+import RealBoard_MakerFaire from "public/gallery_pictures/RealBoard/MakerFaire.png"
 import jojo_picture from "public/gallery_pictures/jojo/jojo.jpg"
 
 export default function Gallery() {
@@ -30,12 +31,12 @@ export default function Gallery() {
         {/*新しく作品紹介を追加したい場合は「ここまで」と書かれている部分までをコピペ & 改変してください */}
         <div className={styles.page_container}>
           <Image
-            src={RealBoard_Logo}
-            alt="RealBoardLogo"
+            src={RealBoard_picture}
+            alt="RealBoardPlay"
             className={styles.picture}
           />
         </div>
-
+        {/* ページの分かれ目 */}
         <div className={styles.page_container}>
           <div className={styles.title}>
             <div className={styles.h1} style={{ color: "rgb(154, 198, 255)" }}>
@@ -44,9 +45,10 @@ export default function Gallery() {
           </div>
           <div className={styles.picture_container}>
             <Image
-              src={RealBoard_picture}
-              alt="RealBoard"
+              src={RealBoard_MakerFaire}
+              alt="RealBoardMakerFaire"
               className={styles.picture}
+              style={{ objectPosition: "center bottom" }}
             />
           </div>
           <div className={styles.text_container}>

@@ -39,7 +39,7 @@
 
 .normalTEXT {
     padding-left: 35px;
-    font-size: large;
+    font-size: calc(2.2vh + 0.2vw);
 }
 
 .picture_container {
