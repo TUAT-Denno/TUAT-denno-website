@@ -4,8 +4,6 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/about.module.css'
 
-import MakerFaire_Picture from 'public/about_pictures/MakerFaire.png'
-
 import HEADER from './components/header'
 import FOOTER from './components/footer'
 
@@ -34,11 +32,6 @@ export default function About() {
               </a>
               <aside style={{ display: "inline-block" }}>※農工大のGoogleアカウントでログインしている必要があります</aside>
             </h4>
-            <Image
-              src={MakerFaire_Picture}
-              alt="MakerFaire"
-              className={styles.picture}
-            />
             {/*formの埋め込み*/}
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffXKMr5i5Eup2s-CUSnN0WbUXYaQJVtlrI7bSJ_CH2CnVrPw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" className={styles.Form}>読み込んでいます…</iframe>
           </div>
