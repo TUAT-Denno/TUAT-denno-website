@@ -91,9 +91,9 @@ export default function Gallery() {
                 ジョジョ立ちプロジェクトは、東京農工大学ステージ研究会さん(
                 <a href="https://twitter.com/tuatsyoumei" className={styles.url} target="_blank" rel="noopener noreferrer">@tuatsyoumei</a>
                 )と協力して行いました。
-                OpenPoseを使ってジョジョ立ちのポーズ認識を行い、
+                <b>OpenPoseを用いてポーズ認識</b>を行い、
                 各関節の信頼度を考慮した重み付き距離の総和によってキャラクターを識別し、
-                幽波紋(スタンド)を透過スクリーンに投影します。
+                <b>幽波紋(スタンド)を透過スクリーンに投影</b>します。
               </p>
             </div>
           </div>
