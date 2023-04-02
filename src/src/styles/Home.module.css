@@ -234,7 +234,7 @@
 }
 
 .news_titel_container {
-    border-top: 1px solid #1586c3;
+    /* border-top: 1px solid #1586c3; */
     border-bottom: 1px solid #1586c3;
 }
 
@@ -313,7 +313,9 @@
     .About_picture{
         border-right: none;
     }
-
+    .gallery_container{
+        display: flex;
+    }
     .gallery_picture{
         order:1;
     }
