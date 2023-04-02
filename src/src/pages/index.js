@@ -41,25 +41,26 @@ export default function Home() {
         <link rel="icon" href="public/dennofavicon.png" />
       </Head>
       <main>
-        <div className={styles.hometitle_container}>
+        <div className={styles.main_container}>
           <div className={styles.hometitle}>
             <h1>東京農工大学 電脳サークルへようこそ！！</h1>
           </div>
-        </div>
-        {/*とりあえず適当なコードですが，もしあったらRealBoardとかのコードとかの方が良いかも*/}
-        <div className={styles.picture_container}>
-          <Image
-            src={windowWidth > 750 ? code_pic : code_numberless_pic}
-            alt="code"
-            className={styles.picture1}
-          />
+            {/*とりあえず適当なコードですが，もしあったらRealBoardとかのコードとかの方が良いかも*/}
+          <div className={styles.picture_container}>
+            <Image
+              src={windowWidth > 750 ? code_pic : code_numberless_pic}
+              alt="code"
+              className={styles.picture1}
+            />
 
-          <Image
-            src={RealBoard_pic}
-            alt="Real Board"
-            className={styles.picture2}
-          />
+            <Image
+              src={RealBoard_pic}
+              alt="Real Board"
+              className={styles.picture2}
+            />
+          </div>
         </div>
+        
         <HEADER />
         <div className={styles.About_container}>
           <Image

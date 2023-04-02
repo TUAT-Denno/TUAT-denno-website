@@ -1,21 +1,36 @@
-.hometitle_container {
+/* .hometitle_container {
     width: 50%;
     display: inline-block;
     vertical-align: middle;
     height: 100%;
+} */
+.main_container{
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 83px);
 }
-
-.hometitle {
+/* .hometitle {
     text-align: center;
     height: 100%;
     color: #1586c3;
-}
+} */
 
+.hometitle {
+    width: 50%;
+    display: inline-block;
+    margin:auto;   
+}
+.hometitle h1{
+    vertical-align: middle;
+    text-align: center;
+    /* height: 100%; */
+    color: #1586c3;
+}
 .picture_container {
     position: relative;
     width: 50%;
-    height: calc(100vh - 83px);
-    display: inline-block;
+    /* height: calc(100vh - 83px); */
+    /* display: inline-block; */
     vertical-align: middle;
     overflow: hidden;
 }
@@ -117,13 +132,13 @@
     position: sticky;
     top: 83px;
     width: 100%;
-    height: calc(100vh - 83px);
+    /* height: calc(100vh - 83px); */
 }
 
 .About_picture {
     position: relative;
     width: 50%;
-    height: 100%;
+    height: calc(100vh - 83px);
     display: inline-block;
     vertical-align: middle;
     overflow: hidden;
@@ -138,7 +153,7 @@
     width: 50%;
     display: inline-block;
     vertical-align: middle;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 1%;
     box-sizing: border-box;
 }
@@ -168,7 +183,7 @@
     position: sticky;
     top: 83px;
     width: 100%;
-    height: calc(100vh - 83px);
+    /* height: calc(100vh - 83px); */
 }
 
 .gallery_con {
@@ -201,7 +216,7 @@
 .gallery_picture {
     position: relative;
     width: 50%;
-    height: 100%;
+    height: calc(100vh - 83px);
     display: inline-block;
     vertical-align: middle;
     overflow: hidden;
