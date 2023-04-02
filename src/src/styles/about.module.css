@@ -36,7 +36,7 @@
 }
 
 /* windowsでのウィンドウの最小幅が500pxっぽい？ので、500px以下のときで切り替える */
-@media (min-width: 500px) {
+/* @media (min-width: 500px) { */
     .Form {
         width: 90%;
         height: 500px;
@@ -45,7 +45,7 @@
     .picture {
         display: none;
     }
-}
+/* }
 
 @media (max-width: 499px) {
     .Form {
@@ -56,7 +56,7 @@
         width: 100%;
         height: auto;
     }
-}
+} */
 
 .url {
     color: blue;
