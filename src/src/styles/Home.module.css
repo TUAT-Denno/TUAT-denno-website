@@ -179,7 +179,7 @@
 .gallery_container {
     border-bottom: 1px solid #1586c3;
     background-color: white;
-    display: flex;
+    /* display: flex; */
     /* position: sticky;
     top: 83px;
     width: 100%; */
