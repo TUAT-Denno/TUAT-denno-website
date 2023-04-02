@@ -190,7 +190,7 @@
     width: 50%;
     display: inline-block;
     vertical-align: middle;
-    height: calc(100vh - 83px);
+    /* height: calc(100vh - 83px); */
     padding: 1%;
     border-right: 1px solid #1586c3;
     box-sizing: border-box;
@@ -306,11 +306,11 @@
     .picture_container{
         height: 60%;
     }
-    .concept_picture,.gallery_picture{
+    .About_picture,.gallery_picture{
         border-bottom: 1px solid #1586c3 ;
         height: 50vh;
     }
-    .concept_picture{
+    .About_picture{
         border-right: none;
     }
 
