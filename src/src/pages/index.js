@@ -3,23 +3,43 @@ import Link from "next/link"
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-
+import { useEffect, useState } from 'react';
 
 import code_pic from "public/index_pictures/code.png"
+import code_numberless_pic from "public/index_pictures/numberless_code.jpg"
 import RealBoard_pic from "public/index_pictures/RealBoard.png"
 import HEADER from './components/header'
 import FOOTER from './components/footer'
 
+function useWindowWidth() {
+  const [windowWidth, setWindowWidth] = useState(undefined);
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowWidth(window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth);
+    }
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return windowWidth;
+}
+
+
 
 export default function Home() {
+  const windowWidth = useWindowWidth();
   return (
     <>
-      {/* <Head>
+      <Head>
         <title>東京農工大学 電脳サークル</title>
         <meta name="description" content="東京農工大学電脳サークルの紹介ページ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="public/dennofavicon.ico" />
-      </Head> */}
+        <link rel="icon" href="public/dennofavicon.png" />
+      </Head>
       <main>
         <div className={styles.hometitle_container}>
           <div className={styles.hometitle}>
@@ -29,7 +49,7 @@ export default function Home() {
         {/*とりあえず適当なコードですが，もしあったらRealBoardとかのコードとかの方が良いかも*/}
         <div className={styles.picture_container}>
           <Image
-            src={code_pic}
+            src={windowWidth > 750 ? code_pic : code_numberless_pic}
             alt="code"
             className={styles.picture1}
           />
@@ -43,7 +63,7 @@ export default function Home() {
         <HEADER />
         <div className={styles.About_container}>
           <Image
-            src={code_pic}
+            src={windowWidth > 750 ? code_pic : code_numberless_pic}
             alt="code"
             className={styles.About_picture}
           />
@@ -94,7 +114,7 @@ export default function Home() {
 
             <div className={styles.twitter}>
               <h3>Twitter</h3>
-              <a className="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light"  href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno<br /><br /> 読み込んでいます…</a><script async src="https://platform.twitter.com/widgets.js" ></script>
+              <a className="twitter-timeline" data-lang="ja" data-width="100%" data-height="600" data-theme="light" href="https://twitter.com/noko_denno?ref_src=twsrc%5Etfw">Tweets by noko_denno<br /><br /> 読み込んでいます…</a><script async src="https://platform.twitter.com/widgets.js" ></script>
             </div>
           </div>
         </div>
