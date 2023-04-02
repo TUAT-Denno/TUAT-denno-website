@@ -54,10 +54,10 @@ export default function Gallery() {
           <div className={styles.text_container}>
             <div className={styles.normalTEXT}>
               <p>
-                RealBoardは<b>体感型スノボゲーム</b> です。
-                特殊なコントローラーでプレイヤーの重心を検出し、それに合わせてボードを制御し動かすことで、
+                RealBoardは<b>体感型スノボゲーム</b>です。
+                特殊なコントローラーでプレイヤーの重心を検出し、ボードを制御し動かすことで、
                 実際のスノーボードに近い体験をできます。
-                入力に対するキャラクターの動きや物理演算、グラフィックなどのソフト部分はUnreal Engine5、Blenderでの制作です。
+                物理演算やグラフィックなどのソフト部分はUnreal Engine5、Blenderでの制作です。
                 <br /><br />ダウンロードは<b><a href='https://gameparade.creators-guild.com/works/751' className={styles.url} target="_blank" rel="noopener noreferrer"> こちら</a></b>から
               </p>
             </div>
@@ -91,15 +91,15 @@ export default function Gallery() {
                 ジョジョ立ちプロジェクトは、東京農工大学ステージ研究会さん(
                 <a href="https://twitter.com/tuatsyoumei" className={styles.url} target="_blank" rel="noopener noreferrer">@tuatsyoumei</a>
                 )と協力して行いました。
-                Openposeを用いて骨格推定を行い、前処理を行った後、各関節の信頼度を考慮した重み付き距離の総和により見本のジョジョ立ちと比較することで、
-                ポーズがどのキャラクターのジョジョ立ちなのか認識し、幽波紋(スタンド)を透過スクリーンに投影します。
+                OpenPoseを使ってジョジョ立ちのポーズ認識を行い、
+                各関節の信頼度を考慮した重み付き距離の総和によってキャラクターを識別し、
+                幽波紋(スタンド)を透過スクリーンに投影します。
               </p>
             </div>
           </div>
         </div>
       </main >
       <FOOTER />
-
     </>
   )
 }
