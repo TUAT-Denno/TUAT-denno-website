@@ -35,6 +35,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta name="google-site-verification" content="v4D6I0KMbCBPhgu0XTkt0BqQWm2KklAuGQNbsOi_qEY" />
         <title>東京農工大学 電脳サークル</title>
         <meta name="description" content="東京農工大学電脳サークルの紹介ページ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
