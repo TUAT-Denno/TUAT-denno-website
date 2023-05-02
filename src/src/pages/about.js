@@ -37,7 +37,7 @@ export default function About() {
           </div>
           <div className={styles.mapContainer}>
             <h2>部室 </h2>
-            <h3>東京農工大学 小金井キャンパス 部室棟 A205</h3>
+            <h3>東京農工大学 小金井キャンパス 7号館 3F</h3>
             {/*mapの埋め込み*/}
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3240.0406977625626!2d139.5194707997624!3d35.70061609919245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e583487645fd%3A0x8b4287c79ea9f91d!2z5p2x5Lqs6L6y5bel5aSn5a2mIOWwj-mHkeS6leOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1677122116226!5m2!1sja!2sjp/viewform?embedded=true" width="90%" height="450" style={{ border: "0", margin: "0 auto" }} allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
