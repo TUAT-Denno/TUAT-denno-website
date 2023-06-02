@@ -49,13 +49,8 @@ export default function Home() {
         </details>
 
         <details>
-          <summary className={styles.question}>サークルにはどのようなメンバーが所属していますか？</summary>
-          2023年3月現在、知能情報システム工学科(A科)の4年生が13人、2年生が7人で、生命工学科(L科)の2年生が1人の計21人が所属しています。
-        </details>
-
-        <details>
           <summary className={styles.question}>部室は？</summary>
-          部室は、東京農工大学小金井キャンパスの部室A棟の205にあります。<br />
+          部室は、東京農工大学小金井キャンパスの7号館の3Fにあります。<br />
         </details>
 
         <details>
