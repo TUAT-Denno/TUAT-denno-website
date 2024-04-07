@@ -27,13 +27,10 @@ export default function About() {
             <h4>2021年東京農工大学公認サークルとして新たに発足した我々は、
               プログラミングやAI、電子工作、3Dプリンターなどを活用してサークルで作品を製作し、
               一年を通して企画から製造そして発表まで、ものづくりの楽しさを余すことなく体験することをコンセプトに活動しています。<br />
-              <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer" className={styles.url}>
+              <a href="https://forms.gle/SZ9yEJmpJGb2my6EA" target="_blank" rel="noopener noreferrer" className={styles.url}>
                 <h3>入部はこちらから</h3>
               </a>
-              <aside style={{ display: "inline-block" }}>※農工大のGoogleアカウントでログインしている必要があります</aside>
             </h4>
-            {/*formの埋め込み*/}
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffXKMr5i5Eup2s-CUSnN0WbUXYaQJVtlrI7bSJ_CH2CnVrPw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" className={styles.Form}>読み込んでいます…</iframe>
           </div>
           <div className={styles.mapContainer}>
             <h2>部室 </h2>

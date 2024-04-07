@@ -32,7 +32,7 @@ export default function Footer() {
               </div>
 
               <div className={styles.list}>
-                <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer">
+                <a href="https://forms.gle/SZ9yEJmpJGb2my6EA" target="_blank" rel="noopener noreferrer">
                   <li>Join</li>
                   <p>入部フォーム</p>
                 </a>

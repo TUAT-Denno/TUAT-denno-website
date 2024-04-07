@@ -40,7 +40,7 @@ export default function Home() {
         <details>
           <summary className={styles.question}>入部方法は？ </summary>
           下記のGoogleフォームから入部希望をお知らせください。<br />
-          <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer" className={styles.url}>https://forms.gle/m3sc5g7V8iBU11oP9</a>
+          <a href="https://forms.gle/SZ9yEJmpJGb2my6EA" target="_blank" rel="noopener noreferrer" className={styles.url}>https://forms.gle/SZ9yEJmpJGb2my6EA</a>
         </details>
 
         <details>

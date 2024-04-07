@@ -108,7 +108,7 @@ export default function Home() {
                 <h3>FAQ</h3>
                 <p>よくある質問</p>
               </Link>
-              <a href="https://forms.gle/m3sc5g7V8iBU11oP9" target="_blank" rel="noopener noreferrer" className={styles.join_container}>
+              <a href="https://forms.gle/SZ9yEJmpJGb2my6EA" target="_blank" rel="noopener noreferrer" className={styles.join_container}>
                 <h3>Join</h3>
                 入部はこちらから
               </a>
