@@ -50,7 +50,7 @@ export default function Home() {
 
         <details>
           <summary className={styles.question}>部室は？</summary>
-          部室は、東京農工大学小金井キャンパスの7号館の3Fにあります。<br />
+          部室は、東京農工大学小金井キャンパスのサークル棟のB216にあります。<br />
         </details>
 
         <details>
